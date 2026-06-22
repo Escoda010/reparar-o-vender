@@ -3,10 +3,19 @@
 <head>
 <meta charset="UTF-8">
 <title>¿Reparo o Vendo mi Coche? Calculadora gratuita</title>
-<meta name="description" content="Descubre si merece la pena reparar tu coche o es mejor venderlo. Calculadora gratuita con veredicto instantáneo.">
-<meta property="og:title" content="¿Reparo o Vendo mi Coche?">
-<meta property="og:description" content="Calculadora gratuita para decidir si reparar o vender tu coche.">
+<meta name="description" content="Descubre si merece la pena reparar tu coche o es mejor venderlo. Calculadora gratuita con veredicto instantáneo basado en el valor de mercado y el coste de reparación.">
+<meta name="robots" content="index, follow">
+<meta name="author" content="RepararOVender.es">
+<meta name="keywords" content="reparar o vender coche, calculadora coche, merece la pena reparar coche, vender coche avería, valor de mercado coche">
+<meta property="og:title" content="¿Reparo o Vendo mi Coche? Calculadora gratuita">
+<meta property="og:description" content="Calculadora gratuita para decidir si reparar o vender tu coche según el valor de mercado y el coste de reparación.">
+<meta property="og:url" content="https://repararovender.es">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://repararovender.es/og-image.jpg">
+<link rel="canonical" href="https://repararovender.es">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="apple-touch-icon" href="favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -90,8 +99,15 @@
   .hero p{
     color:var(--text-dim);
     max-width:560px;
-    margin:0 auto;
+    margin:0 auto 1rem;
     font-size:1.05rem;
+  }
+  .hero-keywords{
+    color:var(--text-dim);
+    max-width:600px;
+    margin:0 auto;
+    font-size:0.95rem;
+    line-height:1.7;
   }
 
   /* CALCULATOR */
@@ -267,17 +283,140 @@
     color:var(--text-dim);
   }
 
+  /* FAQ */
+  .faq-section{
+    padding:3rem 0;
+    border-top:1px solid var(--border);
+  }
+  .faq-section h2{
+    font-size:1.5rem;
+    margin:0 0 1.5rem;
+    text-align:center;
+  }
+  .faq-list{
+    max-width:780px;
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    gap:0.75rem;
+  }
+  .faq-item{
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    overflow:hidden;
+  }
+  .faq-question{
+    width:100%;
+    background:none;
+    border:none;
+    color:var(--text);
+    font-family:'Space Grotesk',sans-serif;
+    font-size:1rem;
+    font-weight:500;
+    text-align:left;
+    padding:1.1rem 1.25rem;
+    cursor:pointer;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:1rem;
+  }
+  .faq-question:hover{background:var(--panel-2);}
+  .faq-arrow{
+    font-size:1.1rem;
+    transition:transform 0.25s ease;
+    flex-shrink:0;
+    color:var(--accent);
+  }
+  .faq-item.open .faq-arrow{transform:rotate(180deg);}
+  .faq-answer{
+    max-height:0;
+    overflow:hidden;
+    transition:max-height 0.3s ease;
+  }
+  .faq-item.open .faq-answer{max-height:300px;}
+  .faq-answer p{
+    margin:0;
+    padding:0 1.25rem 1.1rem;
+    color:var(--text-dim);
+    font-size:0.95rem;
+    line-height:1.65;
+  }
+
+  /* FOOTER */
   footer{
     text-align:center;
     padding:2rem 1rem 3rem;
     color:var(--text-dim);
     font-size:0.85rem;
+    border-top:1px solid var(--border);
+  }
+  .footer-links{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:0.5rem 1.5rem;
+    margin-bottom:1rem;
+  }
+  .footer-links a{
+    color:var(--text-dim);
+    text-decoration:none;
+    font-size:0.85rem;
+    transition:color 0.2s;
+  }
+  .footer-links a:hover{color:var(--text);}
+
+  /* COOKIE BANNER */
+  .cookie-banner{
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background:var(--panel);
+    border-top:1px solid var(--border);
+    padding:1rem 1.25rem;
+    z-index:100;
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:0.75rem;
+    box-shadow:0 -4px 20px rgba(0,0,0,0.4);
+  }
+  .cookie-banner.hidden{display:none;}
+  .cookie-text{font-size:0.88rem;color:var(--text-dim);max-width:680px;}
+  .cookie-text a{color:var(--accent-2);text-decoration:none;}
+  .cookie-actions{display:flex;gap:0.75rem;flex-wrap:wrap;}
+  .btn-cookie-accept{
+    background:var(--accent);
+    color:#1a1206;
+    border:none;
+    border-radius:8px;
+    padding:0.6rem 1.25rem;
+    font-weight:700;
+    font-family:inherit;
+    cursor:pointer;
+    font-size:0.9rem;
+  }
+  .btn-cookie-info{
+    background:transparent;
+    color:var(--text-dim);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:0.6rem 1.25rem;
+    font-family:inherit;
+    cursor:pointer;
+    font-size:0.9rem;
+    text-decoration:none;
+    display:inline-block;
   }
 
   @media (max-width:480px){
     .header-inner{padding:0.85rem 1rem;}
     .hero{padding:2.25rem 0 1.5rem;}
     .calc-card,.result-card{padding:1.1rem;}
+    .cookie-banner{flex-direction:column;align-items:flex-start;}
   }
 </style>
 </head>
@@ -291,6 +430,7 @@
     </div>
     <nav>
       <a href="#calculadora">Cómo funciona</a>
+      <a href="#faq">FAQ</a>
     </nav>
   </div>
 </header>
@@ -300,13 +440,14 @@
     <div class="container">
       <h1>¿Merece la pena reparar tu coche?</h1>
       <p>Introduce los datos de tu vehículo y la avería. En segundos te decimos si conviene repararlo o venderlo.</p>
+      <p class="hero-keywords">Tomar la decisión entre reparar o vender un coche con avería puede suponer ahorrar miles de euros. Nuestra calculadora gratuita cruza el coste de reparación con el valor de mercado real de tu vehículo para darte un veredicto claro.</p>
     </div>
   </section>
 
   <section class="calc-section" id="calculadora">
     <div class="container">
       <div class="calc-card">
-        <h2>Calculadora</h2>
+        <h2>Calculadora gratuita: ¿reparo o vendo mi coche?</h2>
         <form id="calc-form">
           <div class="field field-full">
             <label for="modelo">Marca y modelo</label>
@@ -320,12 +461,12 @@
 
           <div class="field">
             <label for="km">Kilómetros actuales</label>
-            <input type="number" id="km" min="0" placeholder="ej: 120000" required>
+            <input type="number" id="km" min="0" max="999999" placeholder="ej: 120000" required>
           </div>
 
           <div class="field">
             <label for="coste">Coste estimado de la reparación (€)</label>
-            <input type="number" id="coste" min="0" placeholder="ej: 1500" required>
+            <input type="number" id="coste" min="0" max="99999" placeholder="ej: 1500" required>
           </div>
 
           <div class="field">
@@ -344,19 +485,21 @@
             <label>¿Mantenimiento al día?</label>
             <div class="radio-group">
               <label class="radio-option">
-                <input type="radio" name="mantenimiento" value="si" checked> Sí
+                <input type="radio" id="mant-si" name="mantenimiento" value="si" checked>
+                <span>Sí</span>
               </label>
               <label class="radio-option">
-                <input type="radio" name="mantenimiento" value="no"> No
+                <input type="radio" id="mant-no" name="mantenimiento" value="no">
+                <span>No</span>
               </label>
             </div>
           </div>
 
-          <button type="submit" class="submit-btn">Calcular ahora</button>
+          <button type="submit" class="submit-btn" aria-label="Calcular si merece la pena reparar mi coche">Calcular ahora</button>
         </form>
       </div>
 
-      <div class="result-card" id="result-card">
+      <div class="result-card" id="result-card" aria-live="polite">
         <div class="result-value">
           <div>
             <div class="label">Valor de mercado estimado</div>
@@ -389,13 +532,159 @@
       </div>
     </div>
   </section>
+
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <h2>Preguntas frecuentes</h2>
+      <div class="faq-list">
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Cuándo merece la pena reparar un coche?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Como regla general, merece la pena reparar un coche cuando el coste de la reparación no supera el 20-25% del valor de mercado del vehículo. Si el coche tiene buen mantenimiento, pocos kilómetros y varios años de vida útil por delante, el umbral puede ampliarse al 30-35%. Por encima del 50% del valor, lo más razonable suele ser buscar un vehículo alternativo.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Cómo se calcula el valor de mercado de un coche?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>El valor de mercado depende principalmente del año de matriculación, los kilómetros recorridos, la marca y modelo, y el estado general del vehículo. Nuestra calculadora usa una estimación basada en depreciación anual y penalización por kilómetros. Para un valor más preciso, contrasta en plataformas como Wallapop, Coches.net o AutoScout24 filtrando por tu modelo concreto.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Qué averías hacen que no valga la pena reparar?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Las averías más comprometidas suelen ser las de motor (especialmente gripado o culata fundida), caja de cambios automática y problemas graves de electrónica en vehículos de más de 10 años. Estas reparaciones combinan alto coste con baja garantía de que no aparezcan nuevos problemas asociados. En esos casos, si el presupuesto supera el 40% del valor del coche, la venta suele ser la opción más sensata.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Es mejor vender el coche averiado o arreglarlo primero?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>Depende del tipo de avería y del comprador objetivo. Si la reparación tiene un coste bajo y aumenta significativamente el precio de venta, puede compensar arreglarlo primero. Si la avería es grave y costosa, vender el coche tal cual —declarando la avería— a un desguace o comprador particular especializado puede ser más rentable que invertir en una reparación incierta.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            ¿Es fiable la estimación de valor de esta calculadora?
+            <span class="faq-arrow">▼</span>
+          </button>
+          <div class="faq-answer">
+            <p>La calculadora ofrece una estimación orientativa basada en depreciación media por año y kilómetros. No tiene en cuenta factores como el estado de la carrocería, extras del vehículo o la demanda específica de cada modelo. Úsala como punto de partida y contrasta siempre el resultado en Wallapop o Coches.net para obtener un valor más ajustado a tu vehículo concreto.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
 </main>
 
 <footer>
-  &copy; 2026 ¿Reparo o Vendo? Todos los derechos reservados.
+  <div class="container">
+    <div class="footer-links">
+      <a href="aviso-legal.html">Aviso Legal</a>
+      <a href="privacidad.html">Política de Privacidad</a>
+      <a href="cookies.html">Política de Cookies</a>
+    </div>
+    <p>&copy; 2026 ¿Reparo o Vendo? Todos los derechos reservados.</p>
+  </div>
 </footer>
 
+<!-- COOKIE BANNER -->
+<div class="cookie-banner" id="cookie-banner">
+  <p class="cookie-text">
+    Usamos cookies propias y de terceros (Google AdSense) para mejorar tu experiencia y mostrarte publicidad relevante.
+    Puedes aceptar o consultar nuestra <a href="cookies.html">Política de Cookies</a>.
+  </p>
+  <div class="cookie-actions">
+    <button class="btn-cookie-accept" id="btn-accept-cookies">Aceptar</button>
+    <a href="cookies.html" class="btn-cookie-info">Más info</a>
+  </div>
+</div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "¿Reparo o Vendo mi Coche?",
+  "url": "https://repararovender.es",
+  "description": "Calculadora gratuita para decidir si merece la pena reparar tu coche o es mejor venderlo, basada en el valor de mercado y el coste de reparación.",
+  "applicationCategory": "UtilityApplication",
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "inLanguage": "es"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Cuándo merece la pena reparar un coche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Como regla general, merece la pena reparar un coche cuando el coste de la reparación no supera el 20-25% del valor de mercado del vehículo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cómo se calcula el valor de mercado de un coche?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El valor de mercado depende principalmente del año de matriculación, los kilómetros recorridos, la marca y modelo, y el estado general del vehículo."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué averías hacen que no valga la pena reparar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las averías más comprometidas suelen ser las de motor, caja de cambios automática y problemas graves de electrónica en vehículos de más de 10 años."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es mejor vender el coche averiado o arreglarlo primero?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del tipo de avería. Si la reparación tiene un coste bajo y aumenta el precio de venta, puede compensar. Si es grave y costosa, vender tal cual puede ser más rentable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es fiable la estimación de valor de esta calculadora?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La calculadora ofrece una estimación orientativa. Contrasta siempre el resultado en Wallapop o Coches.net para un valor más ajustado."
+      }
+    }
+  ]
+}
+</script>
+
 <script>
+  // Años select
   const anioSelect = document.getElementById('anio');
   for (let y = 2025; y >= 1990; y--) {
     const opt = document.createElement('option');
@@ -405,6 +694,33 @@
   }
   anioSelect.value = 2015;
 
+  // Cookie banner
+  const cookieBanner = document.getElementById('cookie-banner');
+  if (localStorage.getItem('cookies-accepted')) {
+    cookieBanner.classList.add('hidden');
+  }
+  document.getElementById('btn-accept-cookies').addEventListener('click', function() {
+    localStorage.setItem('cookies-accepted', '1');
+    cookieBanner.classList.add('hidden');
+  });
+
+  // FAQ acordeón
+  document.querySelectorAll('.faq-question').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      const item = this.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      document.querySelectorAll('.faq-item').forEach(function(i) {
+        i.classList.remove('open');
+        i.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+      });
+      if (!isOpen) {
+        item.classList.add('open');
+        this.setAttribute('aria-expanded', 'true');
+      }
+    });
+  });
+
+  // Calculadora
   const form = document.getElementById('calc-form');
   const resultCard = document.getElementById('result-card');
   const valorMercadoEl = document.getElementById('valor-mercado');
@@ -430,17 +746,14 @@
     const valorBase = 28000;
     const depreciacionAnual = 0.11;
     let valor = valorBase * Math.pow(1 - depreciacionAnual, antiguedad);
-
     const kmPenalizacion = Math.max(km - 15000 * antiguedad, 0) * 0.04;
     valor -= kmPenalizacion;
-
     valor = Math.max(valor, 600);
     return Math.round(valor / 50) * 50;
   }
 
-  form.addEventListener('submit', function (e) {
+  form.addEventListener('submit', function(e) {
     e.preventDefault();
-
     const anio = parseInt(anioSelect.value, 10);
     const km = parseFloat(document.getElementById('km').value) || 0;
     const coste = parseFloat(document.getElementById('coste').value) || 0;
@@ -448,9 +761,7 @@
     const mantenimiento = document.querySelector('input[name="mantenimiento"]:checked').value;
 
     let valorMercado = estimarValorMercado(anio, km);
-    if (mantenimiento === 'no') {
-      valorMercado = Math.round(valorMercado * 0.9);
-    }
+    if (mantenimiento === 'no') valorMercado = Math.round(valorMercado * 0.9);
 
     const ratio = valorMercado > 0 ? (coste / valorMercado) * 100 : 100;
     const ratioClamped = Math.min(ratio, 100);
@@ -459,27 +770,27 @@
     ratioTextEl.textContent = ratio.toFixed(0) + '%';
     progressFillEl.style.width = ratioClamped + '%';
 
-    let veredicto, icon, color, explicacion;
+    let color, explicacion;
     const averiaNombre = averiaTexto[averia];
 
     if (ratio < 20) {
-      veredicto = 'REPARA';
-      icon = '🟢';
       color = 'repara';
+      verdictIcon.textContent = '🟢';
+      verdictTitle.textContent = 'REPARA';
       progressFillEl.style.background = 'var(--green)';
-      explicacion = `El coste de arreglar ${averiaNombre} es bajo comparado con el valor del coche. Repararlo es la opción más rentable a corto y medio plazo.`;
+      explicacion = 'El coste de arreglar ' + averiaNombre + ' es bajo comparado con el valor del coche. Repararlo es la opción más rentable a corto y medio plazo.';
     } else if (ratio <= 50) {
-      veredicto = 'VALÓRALO BIEN';
-      icon = '🟡';
       color = 'valoralo';
+      verdictIcon.textContent = '🟡';
+      verdictTitle.textContent = 'VALÓRALO BIEN';
       progressFillEl.style.background = 'var(--yellow)';
-      explicacion = `La reparación de ${averiaNombre} supone una parte significativa del valor del coche. Conviene pedir un segundo presupuesto antes de decidir.`;
+      explicacion = 'La reparación de ' + averiaNombre + ' supone una parte significativa del valor del coche. Conviene pedir un segundo presupuesto antes de decidir.';
     } else {
-      veredicto = 'VENDE';
-      icon = '🔴';
       color = 'vende';
+      verdictIcon.textContent = '🔴';
+      verdictTitle.textContent = 'VENDE';
       progressFillEl.style.background = 'var(--red)';
-      explicacion = `Reparar ${averiaNombre} cuesta más de la mitad del valor estimado del coche. Probablemente te conviene más vender y buscar otro vehículo.`;
+      explicacion = 'Reparar ' + averiaNombre + ' cuesta más de la mitad del valor estimado del coche. Probablemente te conviene más vender y buscar otro vehículo.';
     }
 
     if (mantenimiento === 'no') {
@@ -487,12 +798,13 @@
     }
 
     verdictBox.className = 'verdict ' + color;
-    verdictIcon.textContent = icon;
-    verdictTitle.textContent = veredicto;
     verdictExplain.textContent = explicacion;
 
-    resultCard.classList.add('show');
-    resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    resultCard.style.display = 'block';
+    setTimeout(function() {
+      resultCard.classList.add('show');
+      resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 10);
   });
 </script>
 
