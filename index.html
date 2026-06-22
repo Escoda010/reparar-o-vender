@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>¿Reparo o Vendo mi Coche? Calculadora gratuita</title>
+<meta name="description" content="Descubre si merece la pena reparar tu coche o es mejor venderlo. Calculadora gratuita con veredicto instantáneo.">
+<meta property="og:title" content="¿Reparo o Vendo mi Coche?">
+<meta property="og:description" content="Calculadora gratuita para decidir si reparar o vender tu coche.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1115;
+    --panel:#171a21;
+    --panel-2:#1e222b;
+    --border:#2a2f3a;
+    --text:#eef0f3;
+    --text-dim:#9aa3b2;
+    --accent:#ff7a45;
+    --accent-2:#3dd9c2;
+    --green:#3ddc97;
+    --yellow:#f4c542;
+    --red:#ff5d5d;
+    --radius:14px;
+    --shadow:0 8px 24px rgba(0,0,0,0.35);
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  h1,h2,h3,.logo{font-family:'Space Grotesk',sans-serif;}
+
+  .container{
+    width:100%;
+    max-width:1100px;
+    margin:0 auto;
+    padding:0 1.25rem;
+  }
+
+  /* HEADER */
+  header{
+    border-bottom:1px solid var(--border);
+    background:rgba(15,17,21,0.9);
+    backdrop-filter:blur(6px);
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  .header-inner{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:space-between;
+    gap:0.5rem;
+    padding:1rem 1.25rem;
+  }
+  .brand{display:flex;flex-direction:column;gap:0.15rem;}
+  .logo{font-size:1.4rem;font-weight:700;color:var(--text);margin:0;}
+  .logo span{color:var(--accent);}
+  .slogan{font-size:0.8rem;color:var(--text-dim);margin:0;}
+  nav a{
+    color:var(--text-dim);
+    text-decoration:none;
+    font-weight:500;
+    font-size:0.95rem;
+    padding:0.5rem 0.75rem;
+    border-radius:8px;
+    transition:background 0.2s, color 0.2s;
+  }
+  nav a:hover{background:var(--panel-2);color:var(--text);}
+
+  /* HERO */
+  .hero{
+    padding:3rem 0 2rem;
+    text-align:center;
+  }
+  .hero h1{
+    font-size:clamp(1.7rem, 5vw, 2.6rem);
+    margin:0 0 0.75rem;
+  }
+  .hero p{
+    color:var(--text-dim);
+    max-width:560px;
+    margin:0 auto;
+    font-size:1.05rem;
+  }
+
+  /* CALCULATOR */
+  .calc-section{padding:1.5rem 0 3rem;}
+  .calc-card{
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:1.5rem;
+  }
+  .calc-card h2{
+    margin:0 0 1.25rem;
+    font-size:1.3rem;
+  }
+  form{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:1.1rem;
+  }
+  @media (min-width:768px){
+    form{grid-template-columns:1fr 1fr;}
+    .field-full{grid-column:1 / -1;}
+  }
+  .field{display:flex;flex-direction:column;gap:0.4rem;}
+  label{font-size:0.88rem;font-weight:500;color:var(--text-dim);}
+  input[type="text"],
+  input[type="number"],
+  select{
+    width:100%;
+    padding:0.75rem 0.9rem;
+    border-radius:10px;
+    border:1px solid var(--border);
+    background:var(--panel-2);
+    color:var(--text);
+    font-size:1rem;
+    font-family:inherit;
+    min-height:46px;
+  }
+  input:focus,select:focus{
+    outline:none;
+    border-color:var(--accent-2);
+  }
+  .radio-group{
+    display:flex;
+    gap:1.25rem;
+    align-items:center;
+    flex-wrap:wrap;
+    padding-top:0.25rem;
+  }
+  .radio-option{
+    display:flex;
+    align-items:center;
+    gap:0.5rem;
+    font-size:0.95rem;
+  }
+  .radio-option input[type="radio"]{
+    width:20px;
+    height:20px;
+    accent-color:var(--accent);
+  }
+
+  .submit-btn{
+    grid-column:1 / -1;
+    background:var(--accent);
+    color:#1a1206;
+    border:none;
+    border-radius:10px;
+    padding:1rem 1.5rem;
+    font-size:1.05rem;
+    font-weight:700;
+    font-family:inherit;
+    cursor:pointer;
+    min-height:50px;
+    transition:transform 0.15s ease, background 0.2s ease;
+  }
+  .submit-btn:hover{
+    background:#ff8c5e;
+    transform:translateY(-1px);
+  }
+  .submit-btn:active{transform:translateY(0);}
+
+  /* RESULT */
+  .result-card{
+    margin-top:1.5rem;
+    background:var(--panel);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    box-shadow:var(--shadow);
+    padding:1.5rem;
+    display:none;
+    opacity:0;
+    transform:translateY(14px);
+    transition:opacity 0.45s ease, transform 0.45s ease;
+  }
+  .result-card.show{
+    display:block;
+    opacity:1;
+    transform:translateY(0);
+  }
+
+  .result-value{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    gap:0.5rem;
+    border-bottom:1px solid var(--border);
+    padding-bottom:1rem;
+    margin-bottom:1rem;
+  }
+  .result-value .label{color:var(--text-dim);font-size:0.9rem;}
+  .result-value .value{font-size:1.4rem;font-weight:700;}
+  .result-note{font-size:0.8rem;color:var(--text-dim);margin-top:0.25rem;}
+
+  .ratio-block{margin-bottom:1.25rem;}
+  .ratio-label{
+    display:flex;
+    justify-content:space-between;
+    font-size:0.9rem;
+    color:var(--text-dim);
+    margin-bottom:0.4rem;
+  }
+  .progress-track{
+    width:100%;
+    height:14px;
+    background:var(--panel-2);
+    border-radius:8px;
+    overflow:hidden;
+    border:1px solid var(--border);
+  }
+  .progress-fill{
+    height:100%;
+    width:0%;
+    border-radius:8px;
+    transition:width 0.6s ease;
+  }
+
+  .verdict{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    gap:0.5rem;
+    padding:1.75rem 1rem;
+    border-radius:var(--radius);
+    margin-bottom:1.25rem;
+  }
+  .verdict .icon{font-size:3.2rem;line-height:1;}
+  .verdict .title{
+    font-size:1.6rem;
+    font-weight:700;
+    font-family:'Space Grotesk',sans-serif;
+  }
+  .verdict .explain{
+    font-size:0.98rem;
+    max-width:520px;
+    color:rgba(20,20,20,0.85);
+  }
+  .verdict.repara{background:linear-gradient(135deg,#3ddc97,#2bbf7f);}
+  .verdict.valoralo{background:linear-gradient(135deg,#f4c542,#e0ab1f);}
+  .verdict.vende{background:linear-gradient(135deg,#ff7a6e,#ff5d5d);}
+  .verdict.repara .title,.verdict.repara .explain{color:#0d2e20;}
+  .verdict.valoralo .title,.verdict.valoralo .explain{color:#332300;}
+  .verdict.vende .title,.verdict.vende .explain{color:#330808;}
+
+  .cta-box{
+    background:var(--panel-2);
+    border:1px dashed var(--border);
+    border-radius:10px;
+    padding:1.1rem;
+    text-align:center;
+    font-size:0.92rem;
+    color:var(--text-dim);
+  }
+
+  footer{
+    text-align:center;
+    padding:2rem 1rem 3rem;
+    color:var(--text-dim);
+    font-size:0.85rem;
+  }
+
+  @media (max-width:480px){
+    .header-inner{padding:0.85rem 1rem;}
+    .hero{padding:2.25rem 0 1.5rem;}
+    .calc-card,.result-card{padding:1.1rem;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="brand">
+      <p class="logo">¿Reparo<span> o Vendo</span>?</p>
+      <p class="slogan">Decide con datos, no con intuición</p>
+    </div>
+    <nav>
+      <a href="#calculadora">Cómo funciona</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <h1>¿Merece la pena reparar tu coche?</h1>
+      <p>Introduce los datos de tu vehículo y la avería. En segundos te decimos si conviene repararlo o venderlo.</p>
+    </div>
+  </section>
+
+  <section class="calc-section" id="calculadora">
+    <div class="container">
+      <div class="calc-card">
+        <h2>Calculadora</h2>
+        <form id="calc-form">
+          <div class="field field-full">
+            <label for="modelo">Marca y modelo</label>
+            <input type="text" id="modelo" placeholder="ej: Volkswagen Golf" required>
+          </div>
+
+          <div class="field">
+            <label for="anio">Año del vehículo</label>
+            <select id="anio" required></select>
+          </div>
+
+          <div class="field">
+            <label for="km">Kilómetros actuales</label>
+            <input type="number" id="km" min="0" placeholder="ej: 120000" required>
+          </div>
+
+          <div class="field">
+            <label for="coste">Coste estimado de la reparación (€)</label>
+            <input type="number" id="coste" min="0" placeholder="ej: 1500" required>
+          </div>
+
+          <div class="field">
+            <label for="averia">Tipo de avería</label>
+            <select id="averia" required>
+              <option value="motor">Motor</option>
+              <option value="caja">Caja de cambios</option>
+              <option value="electronica">Electrónica</option>
+              <option value="frenos">Frenos</option>
+              <option value="carroceria">Carrocería</option>
+              <option value="otro">Otro</option>
+            </select>
+          </div>
+
+          <div class="field field-full">
+            <label>¿Mantenimiento al día?</label>
+            <div class="radio-group">
+              <label class="radio-option">
+                <input type="radio" name="mantenimiento" value="si" checked> Sí
+              </label>
+              <label class="radio-option">
+                <input type="radio" name="mantenimiento" value="no"> No
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="submit-btn">Calcular ahora</button>
+        </form>
+      </div>
+
+      <div class="result-card" id="result-card">
+        <div class="result-value">
+          <div>
+            <div class="label">Valor de mercado estimado</div>
+            <div class="value" id="valor-mercado">0 €</div>
+            <div class="result-note">Contrasta en Wallapop o Coches.net</div>
+          </div>
+        </div>
+
+        <div class="ratio-block">
+          <div class="ratio-label">
+            <span>Reparación vs. valor del coche</span>
+            <span id="ratio-text">0%</span>
+          </div>
+          <div class="progress-track">
+            <div class="progress-fill" id="progress-fill"></div>
+          </div>
+        </div>
+
+        <div class="verdict" id="verdict-box">
+          <div class="icon" id="verdict-icon">🟢</div>
+          <div class="title" id="verdict-title">REPARA</div>
+          <div class="explain" id="verdict-explain"></div>
+        </div>
+
+        <div class="cta-box">
+          ¿Quieres saber más? Próximamente artículos y guías sobre mantenimiento del coche.
+        </div>
+
+        <!-- ADSENSE SLOT AQUÍ -->
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  &copy; 2026 ¿Reparo o Vendo? Todos los derechos reservados.
+</footer>
+
+<script>
+  const anioSelect = document.getElementById('anio');
+  for (let y = 2025; y >= 1990; y--) {
+    const opt = document.createElement('option');
+    opt.value = y;
+    opt.textContent = y;
+    anioSelect.appendChild(opt);
+  }
+  anioSelect.value = 2015;
+
+  const form = document.getElementById('calc-form');
+  const resultCard = document.getElementById('result-card');
+  const valorMercadoEl = document.getElementById('valor-mercado');
+  const ratioTextEl = document.getElementById('ratio-text');
+  const progressFillEl = document.getElementById('progress-fill');
+  const verdictBox = document.getElementById('verdict-box');
+  const verdictIcon = document.getElementById('verdict-icon');
+  const verdictTitle = document.getElementById('verdict-title');
+  const verdictExplain = document.getElementById('verdict-explain');
+
+  const averiaTexto = {
+    motor: 'el motor',
+    caja: 'la caja de cambios',
+    electronica: 'el sistema electrónico',
+    frenos: 'los frenos',
+    carroceria: 'la carrocería',
+    otro: 'el componente afectado'
+  };
+
+  function estimarValorMercado(anio, km) {
+    const anioActual = 2026;
+    const antiguedad = Math.max(anioActual - anio, 0);
+    const valorBase = 28000;
+    const depreciacionAnual = 0.11;
+    let valor = valorBase * Math.pow(1 - depreciacionAnual, antiguedad);
+
+    const kmPenalizacion = Math.max(km - 15000 * antiguedad, 0) * 0.04;
+    valor -= kmPenalizacion;
+
+    valor = Math.max(valor, 600);
+    return Math.round(valor / 50) * 50;
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    const anio = parseInt(anioSelect.value, 10);
+    const km = parseFloat(document.getElementById('km').value) || 0;
+    const coste = parseFloat(document.getElementById('coste').value) || 0;
+    const averia = document.getElementById('averia').value;
+    const mantenimiento = document.querySelector('input[name="mantenimiento"]:checked').value;
+
+    let valorMercado = estimarValorMercado(anio, km);
+    if (mantenimiento === 'no') {
+      valorMercado = Math.round(valorMercado * 0.9);
+    }
+
+    const ratio = valorMercado > 0 ? (coste / valorMercado) * 100 : 100;
+    const ratioClamped = Math.min(ratio, 100);
+
+    valorMercadoEl.textContent = valorMercado.toLocaleString('es-ES') + ' €';
+    ratioTextEl.textContent = ratio.toFixed(0) + '%';
+    progressFillEl.style.width = ratioClamped + '%';
+
+    let veredicto, icon, color, explicacion;
+    const averiaNombre = averiaTexto[averia];
+
+    if (ratio < 20) {
+      veredicto = 'REPARA';
+      icon = '🟢';
+      color = 'repara';
+      progressFillEl.style.background = 'var(--green)';
+      explicacion = `El coste de arreglar ${averiaNombre} es bajo comparado con el valor del coche. Repararlo es la opción más rentable a corto y medio plazo.`;
+    } else if (ratio <= 50) {
+      veredicto = 'VALÓRALO BIEN';
+      icon = '🟡';
+      color = 'valoralo';
+      progressFillEl.style.background = 'var(--yellow)';
+      explicacion = `La reparación de ${averiaNombre} supone una parte significativa del valor del coche. Conviene pedir un segundo presupuesto antes de decidir.`;
+    } else {
+      veredicto = 'VENDE';
+      icon = '🔴';
+      color = 'vende';
+      progressFillEl.style.background = 'var(--red)';
+      explicacion = `Reparar ${averiaNombre} cuesta más de la mitad del valor estimado del coche. Probablemente te conviene más vender y buscar otro vehículo.`;
+    }
+
+    if (mantenimiento === 'no') {
+      explicacion += ' Además, al no estar el mantenimiento al día, el riesgo de averías futuras es mayor.';
+    }
+
+    verdictBox.className = 'verdict ' + color;
+    verdictIcon.textContent = icon;
+    verdictTitle.textContent = veredicto;
+    verdictExplain.textContent = explicacion;
+
+    resultCard.classList.add('show');
+    resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+</script>
+
+</body>
+</html>
