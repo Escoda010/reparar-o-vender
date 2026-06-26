@@ -4,4 +4,4 @@ Disallow: /aviso-legal.html
 Disallow: /privacidad.html
 Disallow: /cookies.html
 
-Sitemap: https://escoda010.github.io/reparar-o-vender/sitemap.xml
+Sitemap: https://repararovender.es/sitemap.xml
