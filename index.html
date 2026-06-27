@@ -483,48 +483,52 @@
     right:0;
     background:var(--panel);
     border-top:1px solid var(--border);
-    padding:1rem 1.25rem;
+    padding:1.1rem 1.25rem;
     z-index:100;
     display:flex;
     flex-wrap:wrap;
     align-items:center;
     justify-content:space-between;
-    gap:0.75rem;
+    gap:1rem;
     box-shadow:0 -4px 20px rgba(0,0,0,0.4);
   }
   .cookie-banner.hidden{display:none;}
-  .cookie-text{font-size:0.88rem;color:var(--text-dim);max-width:680px;}
-  .cookie-text a{color:var(--accent-2);text-decoration:none;}
-  .cookie-actions{display:flex;gap:0.75rem;flex-wrap:wrap;}
-  .btn-cookie-accept{
-    background:var(--accent);
-    color:#1a1206;
-    border:none;
+  .cookie-text{font-size:0.88rem;color:var(--text-dim);max-width:680px;margin:0;}
+  .cookie-actions-wrap{display:flex;flex-direction:column;gap:0.5rem;align-items:flex-start;flex-shrink:0;}
+  .cookie-actions{display:flex;gap:0.75rem;flex-wrap:wrap;width:100%;}
+  .btn-cookie-accept,
+  .btn-cookie-reject{
+    flex:1;
+    min-width:120px;
+    min-height:46px;
     border-radius:8px;
-    padding:0.6rem 1.25rem;
     font-weight:700;
     font-family:inherit;
     cursor:pointer;
     font-size:0.9rem;
+    border:none;
   }
-  .btn-cookie-info{
+  .btn-cookie-accept{
+    background:var(--accent);
+    color:#1a1206;
+  }
+  .btn-cookie-reject{
     background:transparent;
-    color:var(--text-dim);
+    color:var(--text);
     border:1px solid var(--border);
-    border-radius:8px;
-    padding:0.6rem 1.25rem;
-    font-family:inherit;
-    cursor:pointer;
-    font-size:0.9rem;
-    text-decoration:none;
-    display:inline-block;
+  }
+  .cookie-info-link{
+    color:var(--text-dim);
+    text-decoration:underline;
+    font-size:0.8rem;
   }
 
   @media (max-width:480px){
     .header-inner{padding:0.85rem 1rem;}
     .hero{padding:2.25rem 0 1.5rem;}
     .calc-card,.result-card{padding:1.1rem;}
-    .cookie-banner{flex-direction:column;align-items:flex-start;}
+    .cookie-banner{flex-direction:column;align-items:stretch;}
+    .cookie-actions-wrap{width:100%;align-items:stretch;}
   }
 </style>
 </head>
@@ -765,11 +769,14 @@
 <div class="cookie-banner" id="cookie-banner">
   <p class="cookie-text">
     Usamos cookies propias y de terceros (Google AdSense) para mejorar tu experiencia y mostrarte publicidad relevante.
-    Puedes aceptar o consultar nuestra <a href="cookies.html">Política de Cookies</a>.
+    Puedes aceptar o rechazar su uso.
   </p>
-  <div class="cookie-actions">
-    <button class="btn-cookie-accept" id="btn-accept-cookies">Aceptar</button>
-    <a href="cookies.html" class="btn-cookie-info">Más info</a>
+  <div class="cookie-actions-wrap">
+    <div class="cookie-actions">
+      <button class="btn-cookie-accept" id="btn-accept-cookies">Aceptar</button>
+      <button class="btn-cookie-reject" id="btn-reject-cookies">Rechazar</button>
+    </div>
+    <a href="cookies.html" class="cookie-info-link">Más info</a>
   </div>
 </div>
 
@@ -854,11 +861,15 @@
 
   // Cookie banner
   const cookieBanner = document.getElementById('cookie-banner');
-  if (localStorage.getItem('cookies-accepted')) {
+  if (localStorage.getItem('cookies-accepted') || localStorage.getItem('cookies-rejected')) {
     cookieBanner.classList.add('hidden');
   }
   document.getElementById('btn-accept-cookies').addEventListener('click', function() {
     localStorage.setItem('cookies-accepted', '1');
+    cookieBanner.classList.add('hidden');
+  });
+  document.getElementById('btn-reject-cookies').addEventListener('click', function() {
+    localStorage.setItem('cookies-rejected', '1');
     cookieBanner.classList.add('hidden');
   });
 

@@ -53,9 +53,9 @@
         <th>Duración</th>
       </tr>
       <tr>
-        <td>cookies-accepted</td>
+        <td>cookies-accepted / cookies-rejected</td>
         <td>Propia</td>
-        <td>Recuerda si has aceptado el banner de cookies</td>
+        <td>Recuerda si has aceptado o rechazado el banner de cookies</td>
         <td>Persistente (localStorage)</td>
       </tr>
       <tr>
@@ -90,7 +90,8 @@
 <script>
   document.getElementById('btn-retirar').addEventListener('click', function() {
     localStorage.removeItem('cookies-accepted');
-    alert('Consentimiento retirado. Al volver a la página principal verás de nuevo el banner de cookies.');
+    localStorage.removeItem('cookies-rejected');
+    location.reload();
   });
 </script>
 </body>
