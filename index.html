@@ -280,6 +280,61 @@
   .verdict.valoralo .title,.verdict.valoralo .explain{color:#332300;}
   .verdict.vende .title,.verdict.vende .explain{color:#330808;}
 
+  .dynamic-cta{
+    background:var(--panel-2);
+    border:1px solid var(--border);
+    border-radius:var(--radius);
+    padding:1.75rem 1.25rem;
+    margin-bottom:1.25rem;
+    text-align:center;
+    display:none;
+    opacity:0;
+    transform:translateY(14px);
+    transition:opacity 0.45s ease, transform 0.45s ease;
+  }
+  .dynamic-cta.show{
+    display:block;
+    opacity:1;
+    transform:translateY(0);
+  }
+  .dynamic-cta-icon{
+    font-size:2.8rem;
+    line-height:1;
+    margin-bottom:0.6rem;
+  }
+  .dynamic-cta-title{
+    font-family:'Space Grotesk',sans-serif;
+    font-weight:700;
+    font-size:1.25rem;
+    margin-bottom:0.5rem;
+    color:var(--text);
+  }
+  .dynamic-cta-text{
+    color:var(--text-dim);
+    font-size:0.95rem;
+    max-width:480px;
+    margin:0 auto 1.25rem;
+  }
+  .dynamic-cta-btn{
+    display:block;
+    width:100%;
+    min-height:50px;
+    border-radius:10px;
+    font-weight:700;
+    font-size:1.05rem;
+    font-family:inherit;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:transform 0.15s ease, opacity 0.2s ease;
+  }
+  .dynamic-cta-btn:hover{transform:translateY(-1px);opacity:0.92;}
+  .dynamic-cta-btn:active{transform:translateY(0);}
+  .dynamic-cta-btn.btn-repara{background:#ff7a45;color:#1a1206;}
+  .dynamic-cta-btn.btn-valoralo{background:#f4c542;color:#332300;}
+  .dynamic-cta-btn.btn-vende{background:#3ddc97;color:#0d2e20;}
+
   .cta-box{
     background:var(--panel-2);
     border:1px dashed var(--border);
@@ -579,6 +634,13 @@
           <div class="explain" id="verdict-explain"></div>
         </div>
 
+        <div class="dynamic-cta" id="dynamic-cta">
+          <div class="dynamic-cta-icon" id="dynamic-cta-icon"></div>
+          <div class="dynamic-cta-title" id="dynamic-cta-title"></div>
+          <div class="dynamic-cta-text" id="dynamic-cta-text"></div>
+          <a class="dynamic-cta-btn" id="dynamic-cta-btn" href="#" target="_blank" rel="noopener"></a>
+        </div>
+
         <div class="cta-box">
           ¿Quieres saber más? Próximamente artículos y guías sobre mantenimiento del coche.
         </div>
@@ -830,6 +892,38 @@
   const verdictIcon = document.getElementById('verdict-icon');
   const verdictTitle = document.getElementById('verdict-title');
   const verdictExplain = document.getElementById('verdict-explain');
+  const dynamicCta = document.getElementById('dynamic-cta');
+  const dynamicCtaIcon = document.getElementById('dynamic-cta-icon');
+  const dynamicCtaTitle = document.getElementById('dynamic-cta-title');
+  const dynamicCtaText = document.getElementById('dynamic-cta-text');
+  const dynamicCtaBtn = document.getElementById('dynamic-cta-btn');
+
+  const ctaPorVeredicto = {
+    repara: {
+      icon: '🔧',
+      title: 'Encuentra la pieza más barata',
+      text: 'Compara precios de recambios y ahorra en la reparación.',
+      btnText: 'Ver recambios en Amazon',
+      btnHref: 'https://amzn.to/TUENLACE',
+      btnClass: 'btn-repara'
+    },
+    valoralo: {
+      icon: '📋',
+      title: 'Pide un segundo presupuesto',
+      text: 'Antes de decidir, compara presupuestos de talleres cerca de ti.',
+      btnText: 'Buscar talleres',
+      btnHref: 'https://TUENLACE',
+      btnClass: 'btn-valoralo'
+    },
+    vende: {
+      icon: '💶',
+      title: 'Tasa tu coche gratis ahora',
+      text: 'Descubre cuánto te dan por tu coche aunque esté averiado.',
+      btnText: 'Tasar mi coche',
+      btnHref: 'https://TUENLACE',
+      btnClass: 'btn-vende'
+    }
+  };
 
   const averiaTexto = {
     motor: 'el motor',
@@ -900,9 +994,19 @@
     verdictBox.className = 'verdict ' + color;
     verdictExplain.textContent = explicacion;
 
+    const cta = ctaPorVeredicto[color];
+    dynamicCtaIcon.textContent = cta.icon;
+    dynamicCtaTitle.textContent = cta.title;
+    dynamicCtaText.textContent = cta.text;
+    dynamicCtaBtn.textContent = cta.btnText;
+    dynamicCtaBtn.href = cta.btnHref;
+    dynamicCtaBtn.className = 'dynamic-cta-btn ' + cta.btnClass;
+
     resultCard.style.display = 'block';
+    dynamicCta.style.display = 'block';
     setTimeout(function() {
       resultCard.classList.add('show');
+      dynamicCta.classList.add('show');
       resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }, 10);
   });
