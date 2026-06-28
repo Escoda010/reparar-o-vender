@@ -563,9 +563,18 @@
       <div class="calc-card">
         <h2>Calculadora gratuita: ¿reparo o vendo mi coche?</h2>
         <form id="calc-form">
-          <div class="field field-full">
-            <label for="modelo">Marca y modelo</label>
-            <input type="text" id="modelo" placeholder="ej: Volkswagen Golf" required>
+          <div class="field">
+            <label for="marca">Marca</label>
+            <select id="marca" required>
+              <option value="" disabled selected>Selecciona una marca</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="modelo">Modelo</label>
+            <select id="modelo" required disabled>
+              <option value="" disabled selected>Elige primero la marca</option>
+            </select>
           </div>
 
           <div class="field">
@@ -858,6 +867,58 @@
     anioSelect.appendChild(opt);
   }
   anioSelect.value = 2015;
+
+  // Marcas y modelos (lista curada de los más vendidos en España)
+  const MARCAS_MODELOS = {
+    'Volkswagen': ['Golf', 'Polo', 'Passat', 'Tiguan', 'T-Roc', 'Touareg'],
+    'Seat': ['Ibiza', 'León', 'Arona', 'Ateca', 'Tarraco'],
+    'Renault': ['Clio', 'Megane', 'Captur', 'Kadjar', 'Scenic'],
+    'Peugeot': ['208', '308', '2008', '3008', '5008'],
+    'Citroën': ['C3', 'C4', 'C5 Aircross', 'Berlingo'],
+    'Opel': ['Corsa', 'Astra', 'Mokka', 'Crossland', 'Insignia'],
+    'Ford': ['Fiesta', 'Focus', 'Kuga', 'Puma', 'Mondeo'],
+    'Toyota': ['Corolla', 'Yaris', 'C-HR', 'RAV4', 'Auris'],
+    'BMW': ['Serie 1', 'Serie 3', 'Serie 5', 'X1', 'X3'],
+    'Mercedes-Benz': ['Clase A', 'Clase C', 'Clase E', 'GLA', 'GLC'],
+    'Audi': ['A1', 'A3', 'A4', 'Q3', 'Q5'],
+    'Hyundai': ['i20', 'i30', 'Tucson', 'Kona', 'Santa Fe'],
+    'Kia': ['Picanto', 'Ceed', 'Sportage', 'Niro', 'Rio'],
+    'Fiat': ['500', 'Panda', 'Tipo', '500X'],
+    'Skoda': ['Fabia', 'Octavia', 'Karoq', 'Kamiq'],
+    'Dacia': ['Sandero', 'Duster', 'Logan', 'Spring'],
+    'Nissan': ['Qashqai', 'Juke', 'Micra', 'X-Trail'],
+    'Mazda': ['Mazda2', 'Mazda3', 'CX-5', 'CX-30'],
+    'Honda': ['Civic', 'CR-V', 'Jazz', 'HR-V'],
+    'Otra marca': ['Otro modelo']
+  };
+
+  const marcaSelect = document.getElementById('marca');
+  const modeloSelect = document.getElementById('modelo');
+
+  Object.keys(MARCAS_MODELOS).forEach(function(marca) {
+    const opt = document.createElement('option');
+    opt.value = marca;
+    opt.textContent = marca;
+    marcaSelect.appendChild(opt);
+  });
+
+  marcaSelect.addEventListener('change', function() {
+    const modelos = MARCAS_MODELOS[this.value] || [];
+    modeloSelect.innerHTML = '';
+    const placeholder = document.createElement('option');
+    placeholder.value = '';
+    placeholder.disabled = true;
+    placeholder.selected = true;
+    placeholder.textContent = 'Selecciona un modelo';
+    modeloSelect.appendChild(placeholder);
+    modelos.forEach(function(modelo) {
+      const opt = document.createElement('option');
+      opt.value = modelo;
+      opt.textContent = modelo;
+      modeloSelect.appendChild(opt);
+    });
+    modeloSelect.disabled = false;
+  });
 
   // Cookie banner
   const cookieBanner = document.getElementById('cookie-banner');
