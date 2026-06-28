@@ -577,6 +577,11 @@
             </select>
           </div>
 
+          <div class="field field-full" id="modelo-otro-wrap" style="display:none;">
+            <label for="modelo-otro">Especifica tu modelo</label>
+            <input type="text" id="modelo-otro" placeholder="ej: Volkswagen Golf Mk4 1.9 TDI">
+          </div>
+
           <div class="field">
             <label for="anio">Año del vehículo</label>
             <select id="anio" required></select>
@@ -868,34 +873,51 @@
   }
   anioSelect.value = 2015;
 
-  // Marcas y modelos (lista curada de los más vendidos en España)
+  // Marcas y modelos (catálogo amplio, incluye modelos clásicos y descatalogados desde los 90)
   const MARCAS_MODELOS = {
-    'Volkswagen': ['Golf', 'Polo', 'Passat', 'Tiguan', 'T-Roc', 'Touareg'],
-    'Seat': ['Ibiza', 'León', 'Arona', 'Ateca', 'Tarraco'],
-    'Renault': ['Clio', 'Megane', 'Captur', 'Kadjar', 'Scenic'],
-    'Peugeot': ['208', '308', '2008', '3008', '5008'],
-    'Citroën': ['C3', 'C4', 'C5 Aircross', 'Berlingo'],
-    'Opel': ['Corsa', 'Astra', 'Mokka', 'Crossland', 'Insignia'],
-    'Ford': ['Fiesta', 'Focus', 'Kuga', 'Puma', 'Mondeo'],
-    'Toyota': ['Corolla', 'Yaris', 'C-HR', 'RAV4', 'Auris'],
-    'BMW': ['Serie 1', 'Serie 3', 'Serie 5', 'X1', 'X3'],
-    'Mercedes-Benz': ['Clase A', 'Clase C', 'Clase E', 'GLA', 'GLC'],
-    'Audi': ['A1', 'A3', 'A4', 'Q3', 'Q5'],
-    'Hyundai': ['i20', 'i30', 'Tucson', 'Kona', 'Santa Fe'],
-    'Kia': ['Picanto', 'Ceed', 'Sportage', 'Niro', 'Rio'],
-    'Fiat': ['500', 'Panda', 'Tipo', '500X'],
-    'Skoda': ['Fabia', 'Octavia', 'Karoq', 'Kamiq'],
-    'Dacia': ['Sandero', 'Duster', 'Logan', 'Spring'],
-    'Nissan': ['Qashqai', 'Juke', 'Micra', 'X-Trail'],
-    'Mazda': ['Mazda2', 'Mazda3', 'CX-5', 'CX-30'],
-    'Honda': ['Civic', 'CR-V', 'Jazz', 'HR-V'],
-    'Otra marca': ['Otro modelo']
+    'Volkswagen': ['Golf', 'Polo', 'Passat', 'Tiguan', 'T-Roc', 'T-Cross', 'Touareg', 'Touran', 'Sharan', 'Up!', 'Jetta', 'Bora', 'Beetle', 'Arteon', 'Caddy', 'Transporter', 'Scirocco', 'Eos', 'Lupo'],
+    'Seat': ['Ibiza', 'León', 'Arona', 'Ateca', 'Tarraco', 'Toledo', 'Altea', 'Alhambra', 'Córdoba', 'Marbella', 'Arosa', 'Exeo', 'Mii'],
+    'Renault': ['Clio', 'Megane', 'Captur', 'Kadjar', 'Scenic', 'Twingo', 'Laguna', 'Talisman', 'Espace', 'Kangoo', 'Koleos', 'Austral', 'Arkana', 'Modus', '19', '21', 'Safrane', 'Twizy'],
+    'Peugeot': ['208', '308', '2008', '3008', '5008', '108', '107', '206', '207', '306', '307', '406', '407', '508', '607', 'Partner', 'Rifter', '106', '405'],
+    'Citroën': ['C3', 'C4', 'C5 Aircross', 'Berlingo', 'C1', 'C2', 'C5', 'C4 Cactus', 'C3 Aircross', 'Xsara', 'Saxo', 'Picasso', 'DS3', 'DS4', 'AX', 'ZX', 'Visa'],
+    'Opel': ['Corsa', 'Astra', 'Mokka', 'Crossland', 'Insignia', 'Grandland', 'Zafira', 'Meriva', 'Vectra', 'Combo', 'Antara', 'Agila', 'Tigra', 'Omega', 'Calibra', 'Frontera'],
+    'Ford': ['Fiesta', 'Focus', 'Kuga', 'Puma', 'Mondeo', 'EcoSport', 'S-Max', 'Galaxy', 'Ka', 'C-Max', 'B-Max', 'Edge', 'Escort', 'Orion', 'Sierra', 'Transit', 'Scorpio'],
+    'Toyota': ['Corolla', 'Yaris', 'C-HR', 'RAV4', 'Auris', 'Aygo', 'Avensis', 'Land Cruiser', 'Prius', 'Hilux', 'Camry', 'Verso', 'Celica', 'Starlet', 'Picnic'],
+    'BMW': ['Serie 1', 'Serie 2', 'Serie 3', 'Serie 4', 'Serie 5', 'Serie 6', 'Serie 7', 'X1', 'X2', 'X3', 'X4', 'X5', 'X6', 'Z3', 'Z4', 'Compact', 'i3'],
+    'Mercedes-Benz': ['Clase A', 'Clase B', 'Clase C', 'Clase E', 'Clase S', 'Clase CLA', 'GLA', 'GLB', 'GLC', 'GLE', 'Vito', 'Vaneo', 'SLK', 'CLK', 'Sprinter'],
+    'Audi': ['A1', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'Q2', 'Q3', 'Q5', 'Q7', 'TT', 'Cabriolet', '80', '100'],
+    'Hyundai': ['i10', 'i20', 'i30', 'i40', 'Tucson', 'Kona', 'Santa Fe', 'Accent', 'Atos', 'Getz', 'Matrix', 'Coupe', 'ix35', 'ix20', 'Bayon'],
+    'Kia': ['Picanto', 'Rio', 'Ceed', "Pro Ceed", 'Sportage', 'Niro', 'Sorento', 'Stonic', 'Soul', 'Carens', 'Venga', 'XCeed'],
+    'Fiat': ['500', 'Panda', 'Tipo', '500X', '500L', 'Punto', 'Bravo', 'Stilo', 'Doblo', 'Idea', 'Sedici', 'Croma', 'Marea', 'Uno', 'Seicento', 'Multipla'],
+    'Skoda': ['Fabia', 'Octavia', 'Karoq', 'Kamiq', 'Kodiaq', 'Superb', 'Yeti', 'Rapid', 'Roomster', 'Felicia'],
+    'Dacia': ['Sandero', 'Duster', 'Logan', 'Spring', 'Lodgy', 'Dokker', 'Jogger'],
+    'Nissan': ['Qashqai', 'Juke', 'Micra', 'X-Trail', 'Note', 'Almera', 'Primera', 'Navara', 'Leaf', 'Pulsar', 'Pathfinder', 'Patrol', 'Terrano', 'Kubistar'],
+    'Mazda': ['Mazda2', 'Mazda3', 'Mazda6', 'CX-3', 'CX-5', 'CX-30', 'CX-60', 'MX-5', '121', '323', '626', 'Premacy'],
+    'Honda': ['Civic', 'CR-V', 'Jazz', 'HR-V', 'Accord', 'CR-Z', 'FR-V', 'Logo', 'Stream', 'Insight'],
+    'Volvo': ['V40', 'V50', 'V60', 'V70', 'V90', 'S40', 'S60', 'S80', 'XC40', 'XC60', 'XC90', '850', '440', '460'],
+    'Suzuki': ['Swift', 'Vitara', 'Ignis', 'SX4', 'Jimny', 'Baleno', 'Splash', 'Alto', 'Grand Vitara', 'Liana'],
+    'Mitsubishi': ['Outlander', 'ASX', 'Space Star', 'Lancer', 'Colt', 'L200', 'Pajero', 'Eclipse Cross'],
+    'Jeep': ['Renegade', 'Compass', 'Cherokee', 'Grand Cherokee', 'Wrangler', 'Avenger'],
+    'Land Rover': ['Discovery', 'Discovery Sport', 'Range Rover', 'Range Rover Evoque', 'Range Rover Sport', 'Defender', 'Freelander'],
+    'Mini': ['Cooper', 'Countryman', 'Clubman', 'One', 'Cabrio'],
+    'Alfa Romeo': ['Giulietta', 'Giulia', 'Stelvio', '147', '156', '159', 'Mito', '166'],
+    'Lancia': ['Ypsilon', 'Delta', 'Musa', 'Thesis'],
+    'Smart': ['Fortwo', 'Forfour', 'Roadster'],
+    'Chevrolet': ['Aveo', 'Spark', 'Cruze', 'Captiva', 'Matiz', 'Lacetti', 'Orlando'],
+    'Subaru': ['Impreza', 'Forester', 'Outback', 'Legacy', 'XV'],
+    'Jaguar': ['XE', 'XF', 'F-Pace', 'E-Pace', 'X-Type', 'S-Type'],
+    'Lexus': ['CT', 'IS', 'ES', 'NX', 'RX', 'UX'],
+    'SsangYong': ['Tivoli', 'Korando', 'Rexton', 'Actyon'],
+    'Otra marca': []
   };
 
+  const MODELO_OTRO = 'Otro modelo (especificar)';
   const marcaSelect = document.getElementById('marca');
   const modeloSelect = document.getElementById('modelo');
+  const modeloOtroWrap = document.getElementById('modelo-otro-wrap');
+  const modeloOtroInput = document.getElementById('modelo-otro');
 
-  Object.keys(MARCAS_MODELOS).forEach(function(marca) {
+  Object.keys(MARCAS_MODELOS).sort().forEach(function(marca) {
     const opt = document.createElement('option');
     opt.value = marca;
     opt.textContent = marca;
@@ -903,7 +925,7 @@
   });
 
   marcaSelect.addEventListener('change', function() {
-    const modelos = MARCAS_MODELOS[this.value] || [];
+    const modelos = (MARCAS_MODELOS[this.value] || []).slice().sort();
     modeloSelect.innerHTML = '';
     const placeholder = document.createElement('option');
     placeholder.value = '';
@@ -917,7 +939,23 @@
       opt.textContent = modelo;
       modeloSelect.appendChild(opt);
     });
+    const optOtro = document.createElement('option');
+    optOtro.value = MODELO_OTRO;
+    optOtro.textContent = 'Mi modelo no está en la lista...';
+    modeloSelect.appendChild(optOtro);
     modeloSelect.disabled = false;
+    modeloOtroWrap.style.display = 'none';
+    modeloOtroInput.required = false;
+  });
+
+  modeloSelect.addEventListener('change', function() {
+    if (this.value === MODELO_OTRO) {
+      modeloOtroWrap.style.display = 'block';
+      modeloOtroInput.required = true;
+    } else {
+      modeloOtroWrap.style.display = 'none';
+      modeloOtroInput.required = false;
+    }
   });
 
   // Cookie banner
