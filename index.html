@@ -1126,7 +1126,9 @@
     setTimeout(function() {
       resultCard.classList.add('show');
       dynamicCta.classList.add('show');
-      resultCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      const headerOffset = document.querySelector('header').offsetHeight + 16;
+      const targetY = resultCard.getBoundingClientRect().top + window.scrollY - headerOffset;
+      window.scrollTo({ top: targetY, behavior: 'smooth' });
     }, 10);
   });
 </script>
