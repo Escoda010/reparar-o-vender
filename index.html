@@ -613,6 +613,11 @@
             </select>
           </div>
 
+          <div class="field field-full" id="averia-otro-wrap" style="display:none;">
+            <label for="averia-otro">Especifica la avería</label>
+            <input type="text" id="averia-otro" placeholder="ej: dirección asistida">
+          </div>
+
           <div class="field field-full">
             <label>¿Mantenimiento al día?</label>
             <div class="radio-group">
@@ -971,6 +976,20 @@
     }
   });
 
+  const averiaSelect = document.getElementById('averia');
+  const averiaOtroWrap = document.getElementById('averia-otro-wrap');
+  const averiaOtroInput = document.getElementById('averia-otro');
+
+  averiaSelect.addEventListener('change', function() {
+    if (this.value === 'otro') {
+      averiaOtroWrap.style.display = 'block';
+      averiaOtroInput.required = true;
+    } else {
+      averiaOtroWrap.style.display = 'none';
+      averiaOtroInput.required = false;
+    }
+  });
+
   // Cookie banner
   const cookieBanner = document.getElementById('cookie-banner');
   if (localStorage.getItem('cookies-accepted') || localStorage.getItem('cookies-rejected')) {
@@ -1084,7 +1103,8 @@
     progressFillEl.style.width = ratioClamped + '%';
 
     let color, explicacion;
-    const averiaNombre = averiaTexto[averia];
+    const averiaOtroTexto = document.getElementById('averia-otro').value.trim();
+    const averiaNombre = (averia === 'otro' && averiaOtroTexto) ? averiaOtroTexto.toLowerCase() : averiaTexto[averia];
 
     if (ratio < 20) {
       color = 'repara';
