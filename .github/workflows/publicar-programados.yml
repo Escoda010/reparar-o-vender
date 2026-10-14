@@ -1,0 +1,63 @@
+name: Publicar guías programadas
+
+# Cada mañana reconstruye el sitio con la fecha de Madrid. Si ese día toca
+# publicar un artículo (su "fecha" ya ha llegado), lo publica, actualiza el
+# índice, el sitemap y el RSS, y avisa a los buscadores por IndexNow.
+# Los días sin artículo nuevo no hace commit.
+
+on:
+  schedule:
+    - cron: "20 5 * * *"   # 07:20 en Madrid en horario de verano, 06:20 en invierno
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publicar-programados
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar el sitio con la fecha de hoy
+        run: |
+          export BUILD_DATE="$(TZ=Europe/Madrid date +%F)"
+          python _fuente/build.py
+
+      - name: Guardar y publicar si hay cambios
+        id: publicar
+        run: |
+          git config user.name "repararovender-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Hoy no hay nada nuevo que publicar."
+            echo "cambios=no" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "Publicación programada $(TZ=Europe/Madrid date +%F)"
+            git push
+            echo "cambios=si" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Pedir la reconstrucción de GitHub Pages
+        if: steps.publicar.outputs.cambios == 'si'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "/repos/${{ github.repository }}/pages/builds"
+
+      - name: Avisar a los buscadores (IndexNow)
+        if: steps.publicar.outputs.cambios == 'si'
+        continue-on-error: true
+        run: |
+          sleep 120
+          python _fuente/indexnow.py --desde HEAD~1

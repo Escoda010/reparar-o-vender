@@ -1,0 +1,7 @@
+# Configuración local de Claude Code
+.claude/
+
+# Caché del generador (SVG de las cabeceras, se regeneran en cada build)
+_fuente/.cache/
+__pycache__/
+*.pyc

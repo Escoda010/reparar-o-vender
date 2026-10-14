@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-label="Ilustración de una lavadora con agua retenida en el tambor">
+  <defs>
+    <linearGradient id="f-lavadora-no-desagua" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1b1f28"/>
+      <stop offset="1" stop-color="#0f1115"/>
+    </linearGradient>
+    <linearGradient id="g-lavadora-no-desagua" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff7a45" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff7a45" stop-opacity="0.45"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#f-lavadora-no-desagua)"/>
+  <circle cx="1010" cy="130" r="300" fill="#ff7a45" opacity="0.07"/>
+  <circle cx="150" cy="560" r="220" fill="#ff7a45" opacity="0.05"/>
+  <g stroke="#ff7a45" stroke-opacity="0.10" stroke-width="1.5">
+    <path d="M0 500 H1200"/><path d="M0 540 H1200"/><path d="M0 580 H1200"/>
+  </g>
+  <g transform="translate(830 185) scale(2.6)" fill="none" stroke="url(#g-lavadora-no-desagua)"
+     stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="26" y="16" width="68" height="88" rx="8"/>
+        <circle cx="60" cy="68" r="24"/>
+        <circle cx="60" cy="68" r="13"/>
+        <line x1="26" y1="40" x2="94" y2="40"/>
+        <circle cx="80" cy="28" r="4"/>
+        <circle cx="66" cy="28" r="4"/>
+  </g>
+  <g transform="translate(90 150)" font-family="'Space Grotesk','Segoe UI',sans-serif">
+    <text y="0" font-size="30" font-weight="700" fill="#ff7a45" letter-spacing="2">ELECTRODOMÉSTICOS</text>
+    <text y="78" font-size="56" font-weight="700" fill="#eef0f3">La lavadora no desagua</text>
+    <text y="146" font-size="56" font-weight="700" fill="#eef0f3"></text>
+    <text y="214" font-size="56" font-weight="700" fill="#eef0f3"></text>
+    <text y="300" font-size="27" fill="#9aa3b2">repararovender.es</text>
+  </g>
+  <rect x="0" y="618" width="1200" height="12" fill="#ff7a45"/>
+</svg>

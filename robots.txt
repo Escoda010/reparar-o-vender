@@ -3,8 +3,6 @@ Disallow:
 
 User-agent: *
 Allow: /
-Disallow: /aviso-legal.html
-Disallow: /privacidad.html
-Disallow: /cookies.html
+Disallow: /buscar.html
 
 Sitemap: https://repararovender.es/sitemap.xml
