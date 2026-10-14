@@ -52,7 +52,7 @@ INDEXNOW_KEY = "20bba4d3296a3309ba135188bb2ccfff"
 
 # Direccion que aparece en las paginas legales y de contacto.
 # OJO: "contacto@gmail.com" es la que habia y NO es de Jordi. Cambiar antes de publicar.
-CONTACTO_EMAIL = "contacto@gmail.com"
+CONTACTO_EMAIL = "hola@jordiescodasirvent.com"
 
 # IDs de bloques de anuncio de AdSense. Vacios = solo Auto Ads (ya activas).
 ADSENSE_SLOTS = {"en_articulo": "", "pie_articulo": ""}
