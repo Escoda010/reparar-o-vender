@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Wed, 14 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Thu, 15 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Las estafas más comunes al vender y comprar de segunda mano (y cómo detectarlas)</title>
+    <link>https://repararovender.es/blog/estafas-segunda-mano.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/estafas-segunda-mano.html</guid>
+    <pubDate>Thu, 15 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Vender de segunda mano</category>
+    <description>El enlace falso para &quot;cobrar&quot;, el Bizum que en realidad es una solicitud de pago, el comprador que paga de más o el mensajero que manda él. Casi todas las estafas de segunda mano siguen unos pocos patrones. Conocerlos es la mejor protección.</description>
+    <enclosure url="https://repararovender.es/assets/img/estafas-segunda-mano.jpg" length="47739" type="image/jpeg"/>
+  </item>
   <item>
     <title>El wifi va lento: cómo saber si es el router, la línea o tus aparatos</title>
     <link>https://repararovender.es/blog/wifi-lento-router.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Enciende, la luz funciona, el ventilador gira, pero dentro no sube la temperatura. En un horno eléctrico hay solo cuatro piezas que pueden fallar, y tres son baratas de cambiar.</description>
     <enclosure url="https://repararovender.es/assets/img/horno-no-calienta.jpg" length="44988" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El grifo gotea: cómo cambiar el cartucho paso a paso</title>
-    <link>https://repararovender.es/blog/grifo-gotea.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/grifo-gotea.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Hogar y bricolaje</category>
-    <description>Un grifo que gotea tira miles de litros al año. La pieza responsable cuesta entre 6 y 15 €, se cambia en veinte minutos y no hace falta ser fontanero. Te explicamos cómo identificar tu grifo, comprar la pieza correcta y montarla.</description>
-    <enclosure url="https://repararovender.es/assets/img/grifo-gotea.jpg" length="35607" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
