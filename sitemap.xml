@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
-    <lastmod>2026-10-09</lastmod>
+    <lastmod>2026-10-16</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/electrodomesticos/</loc>
@@ -83,6 +83,11 @@
     <loc>https://repararovender.es/blog/caja-cambios-averiada.html</loc>
     <lastmod>2026-10-09</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/caja-cambios-averiada.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/turbo-roto-reparar-o-vender.html</loc>
+    <lastmod>2026-10-16</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/turbo-roto-reparar-o-vender.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/cuando-reparar-y-cuando-cambiar.html</loc>

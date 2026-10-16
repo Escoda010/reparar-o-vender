@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 15 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 16 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Turbo roto: síntomas, precio de la reparación y si compensa</title>
+    <link>https://repararovender.es/blog/turbo-roto-reparar-o-vender.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/turbo-roto-reparar-o-vender.html</guid>
+    <pubDate>Fri, 16 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Coches</category>
+    <description>El coche ha perdido fuerza de golpe, silba, echa humo o entra en modo de emergencia. No siempre es el turbo: a veces es un manguito de 40 €. Te explicamos cómo distinguirlo, cuánto cuesta cada reparación y cuándo deja de compensar.</description>
+    <enclosure url="https://repararovender.es/assets/img/turbo-roto-reparar-o-vender.jpg" length="37229" type="image/jpeg"/>
+  </item>
   <item>
     <title>Las estafas más comunes al vender y comprar de segunda mano (y cómo detectarlas)</title>
     <link>https://repararovender.es/blog/estafas-segunda-mano.html</link>
@@ -267,15 +276,6 @@
     <category>Coches</category>
     <description>Humo blanco, el refrigerante que desaparece, el motor que se calienta. La junta de culata cuesta entre 600 y 1.500 € si solo es la junta, y mucho más si la culata se ha deformado. Te explicamos cómo confirmarlo antes de pagar y cuándo deja de compensar.</description>
     <enclosure url="https://repararovender.es/assets/img/junta-culata-reparar-o-vender.jpg" length="41729" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El horno no calienta: qué revisar antes de llamar al técnico</title>
-    <link>https://repararovender.es/blog/horno-no-calienta.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/horno-no-calienta.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Enciende, la luz funciona, el ventilador gira, pero dentro no sube la temperatura. En un horno eléctrico hay solo cuatro piezas que pueden fallar, y tres son baratas de cambiar.</description>
-    <enclosure url="https://repararovender.es/assets/img/horno-no-calienta.jpg" length="44988" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
