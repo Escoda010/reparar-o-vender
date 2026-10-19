@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-19</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-16</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/hogar/</loc>
-    <lastmod>2026-10-12</lastmod>
+    <lastmod>2026-10-19</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/vender/</loc>
@@ -223,6 +223,11 @@
     <loc>https://repararovender.es/blog/aire-acondicionado-no-enfria.html</loc>
     <lastmod>2026-10-12</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/aire-acondicionado-no-enfria.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/termo-electrico-no-calienta.html</loc>
+    <lastmod>2026-10-19</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/termo-electrico-no-calienta.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/donde-vender-cada-cosa.html</loc>

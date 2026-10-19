@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Fri, 16 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Mon, 19 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>El termo eléctrico no calienta: causas, rearme y cuánto cuesta arreglarlo</title>
+    <link>https://repararovender.es/blog/termo-electrico-no-calienta.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/termo-electrico-no-calienta.html</guid>
+    <pubDate>Mon, 19 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>El agua sale fría o tibia y el termo no parece hacer nada. Puede ser algo tan simple como el limitador de seguridad saltado, o la resistencia quemada por la cal. Te explicamos qué puedes comprobar tú con seguridad y cuándo compensa cambiarlo.</description>
+    <enclosure url="https://repararovender.es/assets/img/termo-electrico-no-calienta.jpg" length="40678" type="image/jpeg"/>
+  </item>
   <item>
     <title>Turbo roto: síntomas, precio de la reparación y si compensa</title>
     <link>https://repararovender.es/blog/turbo-roto-reparar-o-vender.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>La ropa sale empapada y el tambor no coge velocidad. En 8 de cada 10 casos es el filtro, la carga mal repartida o la bomba de desagüe, y los tres se arreglan en casa sin herramientas especiales.</description>
     <enclosure url="https://repararovender.es/assets/img/lavadora-no-centrifuga.jpg" length="52639" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>Junta de culata quemada: síntomas, precio y si compensa repararla</title>
-    <link>https://repararovender.es/blog/junta-culata-reparar-o-vender.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/junta-culata-reparar-o-vender.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Coches</category>
-    <description>Humo blanco, el refrigerante que desaparece, el motor que se calienta. La junta de culata cuesta entre 600 y 1.500 € si solo es la junta, y mucho más si la culata se ha deformado. Te explicamos cómo confirmarlo antes de pagar y cuándo deja de compensar.</description>
-    <enclosure url="https://repararovender.es/assets/img/junta-culata-reparar-o-vender.jpg" length="41729" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
