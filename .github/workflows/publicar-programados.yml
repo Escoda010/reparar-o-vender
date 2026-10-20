@@ -23,6 +23,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2   # para que telegram_aviso.py vea el commit anterior
 
       - uses: actions/setup-python@v5
         with:
@@ -61,3 +63,18 @@ jobs:
         run: |
           sleep 120
           python _fuente/indexnow.py --desde HEAD~1
+
+      - name: Avisar por Telegram del artículo publicado
+        if: steps.publicar.outputs.cambios == 'si'
+        continue-on-error: true
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python _fuente/telegram_aviso.py --publicacion
+
+      - name: Avisar por Telegram si algo ha fallado
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python _fuente/telegram_aviso.py --fallo "El workflow Publicar guías programadas ha fallado."
