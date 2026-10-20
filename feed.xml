@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Mon, 19 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 20 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>La aspiradora pierde potencia o se apaga: causas y soluciones</title>
+    <link>https://repararovender.es/blog/aspiradora-pierde-potencia.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/aspiradora-pierde-potencia.html</guid>
+    <pubDate>Tue, 20 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Electrodomésticos</category>
+    <description>Aspira cada vez menos, se apaga sola o el robot deja la casa a medias. En casi todos los casos es un filtro saturado, un cepillo enredado o la batería, y se arregla en casa. Te explicamos cómo en escobas sin cable, robots y aspiradoras de trineo.</description>
+    <enclosure url="https://repararovender.es/assets/img/aspiradora-pierde-potencia.jpg" length="55556" type="image/jpeg"/>
+  </item>
   <item>
     <title>El termo eléctrico no calienta: causas, rearme y cuánto cuesta arreglarlo</title>
     <link>https://repararovender.es/blog/termo-electrico-no-calienta.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>El tambor se queda lleno de agua y el programa no avanza. Primero hay que sacar el agua a mano, y luego mirar tres sitios por orden: filtro, tubo y bomba. Casi siempre es el primero.</description>
     <enclosure url="https://repararovender.es/assets/img/lavadora-no-desagua.jpg" length="51875" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La lavadora no centrifuga: 7 causas y las que puedes arreglar tú</title>
-    <link>https://repararovender.es/blog/lavadora-no-centrifuga.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/lavadora-no-centrifuga.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>La ropa sale empapada y el tambor no coge velocidad. En 8 de cada 10 casos es el filtro, la carga mal repartida o la bomba de desagüe, y los tres se arreglan en casa sin herramientas especiales.</description>
-    <enclosure url="https://repararovender.es/assets/img/lavadora-no-centrifuga.jpg" length="52639" type="image/jpeg"/>
   </item>
 </channel>
 </rss>

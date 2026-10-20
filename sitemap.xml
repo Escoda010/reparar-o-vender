@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-19</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -15,7 +15,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/electrodomesticos/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-20</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/tecnologia/</loc>
@@ -153,6 +153,11 @@
     <loc>https://repararovender.es/blog/cafetera-no-sale-cafe.html</loc>
     <lastmod>2026-10-13</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/cafetera-no-sale-cafe.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/aspiradora-pierde-potencia.html</loc>
+    <lastmod>2026-10-20</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/aspiradora-pierde-potencia.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/cambiar-bateria-movil-o-comprar-nuevo.html</loc>
