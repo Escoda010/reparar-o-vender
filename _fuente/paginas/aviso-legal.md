@@ -3,12 +3,18 @@ titulo: Aviso legal
 titulo_seo: Aviso legal · ¿Reparo o Vendo?
 descripcion: Aviso legal del sitio web repararovender.es: titular, objeto, propiedad intelectual, limitación de responsabilidad y legislación aplicable.
 url: /aviso-legal.html
-actualizado: 2026-10-07
+actualizado: 2026-10-20
 ---
 
 ## Titular del sitio web
 
-En cumplimiento de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se informa de que el titular de este sitio web es un particular con domicilio en España. Para cualquier consulta puede contactar a través del correo electrónico: {{EMAIL}}
+En cumplimiento del artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y del Comercio Electrónico (LSSI-CE), se informan los siguientes datos del titular:
+
+- **Titular:** Jordi Escoda Sirvent
+- **NIF:** 54640186Y
+- **Domicilio:** Alicante (España)
+- **Correo electrónico de contacto:** {{EMAIL}}
+- **Sitio web:** https://repararovender.es
 
 ## Objeto y ámbito de aplicación
 

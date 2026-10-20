@@ -3,12 +3,15 @@ titulo: Política de privacidad
 titulo_seo: Política de privacidad · ¿Reparo o Vendo?
 descripcion: Qué datos se recogen en repararovender.es, con qué finalidad, la base legal, las transferencias internacionales y cómo ejercer tus derechos.
 url: /privacidad.html
-actualizado: 2026-10-07
+actualizado: 2026-10-20
 ---
 
 ## Responsable del tratamiento
 
-El titular del sitio web repararovender.es, con correo de contacto: {{EMAIL}}
+- **Responsable:** Jordi Escoda Sirvent
+- **NIF:** 54640186Y
+- **Domicilio:** Alicante (España)
+- **Correo de contacto:** {{EMAIL}}
 
 ## Datos que recogemos
 
