@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Tue, 20 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Wed, 21 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>La impresora no imprime: soluciones paso a paso (aunque tenga tinta)</title>
+    <link>https://repararovender.es/blog/impresora-no-imprime.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/impresora-no-imprime.html</guid>
+    <pubDate>Wed, 21 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Tecnología</category>
+    <description>Mandas el documento y no pasa nada, o sale en blanco, o con rayas. La mayoría de las veces el problema está en el ordenador o en la conexión, no en la impresora. Estas son las soluciones en el orden en que conviene probarlas.</description>
+    <enclosure url="https://repararovender.es/assets/img/impresora-no-imprime.jpg" length="43168" type="image/jpeg"/>
+  </item>
   <item>
     <title>La aspiradora pierde potencia o se apaga: causas y soluciones</title>
     <link>https://repararovender.es/blog/aspiradora-pierde-potencia.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Salen con restos pegados, arenilla o una capa blanca. Casi nunca es una avería: son los brazos aspersores tapados, el filtro sucio o estar cargándolo mal. Se arregla en una tarde y sin gastar.</description>
     <enclosure url="https://repararovender.es/assets/img/lavavajillas-deja-platos-sucios.jpg" length="48231" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La lavadora no desagua: cómo vaciarla y desatascarla paso a paso</title>
-    <link>https://repararovender.es/blog/lavadora-no-desagua.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/lavadora-no-desagua.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>El tambor se queda lleno de agua y el programa no avanza. Primero hay que sacar el agua a mano, y luego mirar tres sitios por orden: filtro, tubo y bomba. Casi siempre es el primero.</description>
-    <enclosure url="https://repararovender.es/assets/img/lavadora-no-desagua.jpg" length="51875" type="image/jpeg"/>
   </item>
 </channel>
 </rss>

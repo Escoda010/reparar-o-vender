@@ -50,6 +50,7 @@
 - [El portátil se apaga solo: causas y cómo solucionarlo](https://repararovender.es/blog/portatil-se-apaga-solo.html): Se apaga de golpe, sin aviso ni pantalla azul, normalmente cuando lleva un rato encendido o cuando le exiges algo. En portátiles de más de tres años la causa número uno es el polvo, y se arregla con un destornillador.
 - [La tele no da imagen pero sí sonido: qué falla y cuánto cuesta](https://repararovender.es/blog/tele-sin-imagen-con-sonido.html): Oyes el programa perfectamente pero la pantalla está negra. Hay una prueba de diez segundos con una linterna que distingue entre una reparación de 80 € y una de 400 €.
 - [El wifi va lento: cómo saber si es el router, la línea o tus aparatos](https://repararovender.es/blog/wifi-lento-router.html): Tienes contratados 600 Mb y en el salón no carga ni un vídeo. Casi nunca es la línea: es dónde está el router, la banda a la que te conectas o un aparato que se come la conexión. Te explicamos cómo averiguarlo y qué comprar solo si hace falta.
+- [La impresora no imprime: soluciones paso a paso (aunque tenga tinta)](https://repararovender.es/blog/impresora-no-imprime.html): Mandas el documento y no pasa nada, o sale en blanco, o con rayas. La mayoría de las veces el problema está en el ordenador o en la conexión, no en la impresora. Estas son las soluciones en el orden en que conviene probarlas.
 
 ## Hogar y bricolaje
 
