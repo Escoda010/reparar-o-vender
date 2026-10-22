@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -27,7 +27,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/vender/</loc>
-    <lastmod>2026-10-15</lastmod>
+    <lastmod>2026-10-22</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/bateria-coche-reparar-o-vender.html</loc>
@@ -268,6 +268,11 @@
     <loc>https://repararovender.es/blog/estafas-segunda-mano.html</loc>
     <lastmod>2026-10-15</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/estafas-segunda-mano.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/vender-movil-usado.html</loc>
+    <lastmod>2026-10-22</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/vender-movil-usado.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/aviso-legal.html</loc>

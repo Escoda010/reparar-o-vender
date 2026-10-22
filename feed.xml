@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Wed, 21 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Thu, 22 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Vender un móvil usado: cómo borrar tus datos, ponerle precio y dónde venderlo</title>
+    <link>https://repararovender.es/blog/vender-movil-usado.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/vender-movil-usado.html</guid>
+    <pubDate>Thu, 22 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Vender de segunda mano</category>
+    <description>Antes de vender el móvil hay tres cosas que no te puedes saltar: copia de seguridad, desvincular tu cuenta y restablecer de fábrica. Si no lo haces, el comprador no podrá usarlo o, peor, tendrá acceso a tus datos. Después, el precio y el sitio adecuado.</description>
+    <enclosure url="https://repararovender.es/assets/img/vender-movil-usado.jpg" length="42177" type="image/jpeg"/>
+  </item>
   <item>
     <title>La impresora no imprime: soluciones paso a paso (aunque tenga tinta)</title>
     <link>https://repararovender.es/blog/impresora-no-imprime.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Abres el lavavajillas y todo está mojado, sobre todo los plásticos. Antes de pensar en una avería, hay tres ajustes gratis que resuelven la mayoría de los casos: el abrillantador, el programa y cuándo abres la puerta.</description>
     <enclosure url="https://repararovender.es/assets/img/lavavajillas-no-seca.jpg" length="47823" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El lavavajillas deja los platos sucios: 8 causas y cómo arreglarlo</title>
-    <link>https://repararovender.es/blog/lavavajillas-deja-platos-sucios.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/lavavajillas-deja-platos-sucios.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Salen con restos pegados, arenilla o una capa blanca. Casi nunca es una avería: son los brazos aspersores tapados, el filtro sucio o estar cargándolo mal. Se arregla en una tarde y sin gastar.</description>
-    <enclosure url="https://repararovender.es/assets/img/lavavajillas-deja-platos-sucios.jpg" length="48231" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
