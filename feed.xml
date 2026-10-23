@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 22 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Filtro de partículas (FAP) obstruido: síntomas, regeneración y precios</title>
+    <link>https://repararovender.es/blog/fap-filtro-particulas.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/fap-filtro-particulas.html</guid>
+    <pubDate>Fri, 23 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Coches</category>
+    <description>Se enciende el testigo del filtro de partículas, el coche pierde fuerza o entra en modo de emergencia. Antes de pagar un filtro nuevo de más de 1.000 €, hay una regeneración que puedes intentar tú en carretera y una limpieza que cuesta bastante menos.</description>
+    <enclosure url="https://repararovender.es/assets/img/fap-filtro-particulas.jpg" length="44262" type="image/jpeg"/>
+  </item>
   <item>
     <title>Vender un móvil usado: cómo borrar tus datos, ponerle precio y dónde venderlo</title>
     <link>https://repararovender.es/blog/vender-movil-usado.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>El personaje se mueve solo aunque no toques nada. Es un desgaste de diseño que afecta a todos los mandos modernos, y hay tres niveles de solución: gratis, 10 € y 25 €.</description>
     <enclosure url="https://repararovender.es/assets/img/mando-consola-drift.jpg" length="39090" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El lavavajillas no seca: por qué pasa y cómo arreglarlo</title>
-    <link>https://repararovender.es/blog/lavavajillas-no-seca.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/lavavajillas-no-seca.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Abres el lavavajillas y todo está mojado, sobre todo los plásticos. Antes de pensar en una avería, hay tres ajustes gratis que resuelven la mayoría de los casos: el abrillantador, el programa y cuándo abres la puerta.</description>
-    <enclosure url="https://repararovender.es/assets/img/lavavajillas-no-seca.jpg" length="47823" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
