@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Fri, 23 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Mon, 26 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Humedad y moho en las paredes: cómo saber de dónde viene y cómo quitarla</title>
+    <link>https://repararovender.es/blog/humedad-condensacion-paredes.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/humedad-condensacion-paredes.html</guid>
+    <pubDate>Mon, 26 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>Manchas negras en las esquinas, cristales empañados, pintura que se abomba. No todas las humedades son iguales, y tratar una condensación como si fuera una filtración es tirar el dinero. Así se distinguen y así se soluciona cada una.</description>
+    <enclosure url="https://repararovender.es/assets/img/humedad-condensacion-paredes.jpg" length="48915" type="image/jpeg"/>
+  </item>
   <item>
     <title>Filtro de partículas (FAP) obstruido: síntomas, regeneración y precios</title>
     <link>https://repararovender.es/blog/fap-filtro-particulas.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Un técnico te pide 220 € y una lavadora nueva cuesta 400 €. La decisión no depende solo del presupuesto, sino de la edad del aparato y de qué pieza se ha roto. Aquí está la tabla completa.</description>
     <enclosure url="https://repararovender.es/assets/img/merece-la-pena-reparar-lavadora.jpg" length="51056" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El mando hace drift: cómo arreglarlo paso a paso</title>
-    <link>https://repararovender.es/blog/mando-consola-drift.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/mando-consola-drift.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>El personaje se mueve solo aunque no toques nada. Es un desgaste de diseño que afecta a todos los mandos modernos, y hay tres niveles de solución: gratis, 10 € y 25 €.</description>
-    <enclosure url="https://repararovender.es/assets/img/mando-consola-drift.jpg" length="39090" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
