@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Mon, 26 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 27 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>La campana extractora no aspira: causas y cómo recuperar la potencia</title>
+    <link>https://repararovender.es/blog/campana-extractora-no-aspira.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/campana-extractora-no-aspira.html</guid>
+    <pubDate>Tue, 27 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Electrodomésticos</category>
+    <description>La cocina se llena de humo aunque la campana esté en marcha y haciendo ruido. Casi siempre son los filtros de grasa, los de carbón o la salida de humos, y se arregla sin técnico. Te explicamos cada caso y cuándo es el motor.</description>
+    <enclosure url="https://repararovender.es/assets/img/campana-extractora-no-aspira.jpg" length="45930" type="image/jpeg"/>
+  </item>
   <item>
     <title>Humedad y moho en las paredes: cómo saber de dónde viene y cómo quitarla</title>
     <link>https://repararovender.es/blog/humedad-condensacion-paredes.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>El plato gira, la luz se enciende, suena el pitido al terminar, pero la comida sigue fría. Es el fallo más típico del microondas y, a diferencia de otros electrodomésticos, aquí la respuesta sobre repararlo casi siempre es la misma.</description>
     <enclosure url="https://repararovender.es/assets/img/microondas-no-calienta.jpg" length="48353" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>¿Merece la pena reparar una lavadora? Precios de cada avería y el punto de corte</title>
-    <link>https://repararovender.es/blog/merece-la-pena-reparar-lavadora.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/merece-la-pena-reparar-lavadora.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Un técnico te pide 220 € y una lavadora nueva cuesta 400 €. La decisión no depende solo del presupuesto, sino de la edad del aparato y de qué pieza se ha roto. Aquí está la tabla completa.</description>
-    <enclosure url="https://repararovender.es/assets/img/merece-la-pena-reparar-lavadora.jpg" length="51056" type="image/jpeg"/>
   </item>
 </channel>
 </rss>

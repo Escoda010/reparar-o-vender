@@ -39,6 +39,7 @@
 - [La inducción no detecta la olla o se apaga sola: causas y arreglos](https://repararovender.es/blog/vitroceramica-induccion-no-detecta.html): La placa pita, muestra una U o una raya parpadeante y se apaga a los pocos segundos. Antes de pensar en una avería, hay que descartar el recipiente y la ventilación, que explican la mayoría de los casos.
 - [La cafetera no saca café o sale muy poco: causas y cómo arreglarlo](https://repararovender.es/blog/cafetera-no-sale-cafe.html): Hace ruido, pero el café sale a gotas o no sale. En nueve de cada diez cafeteras el culpable es la cal o un conducto obstruido, y se arregla con un descalcificador de 10 € y media hora. Te explicamos cómo hacerlo en superautomáticas, de cápsulas y de brazo.
 - [La aspiradora pierde potencia o se apaga: causas y soluciones](https://repararovender.es/blog/aspiradora-pierde-potencia.html): Aspira cada vez menos, se apaga sola o el robot deja la casa a medias. En casi todos los casos es un filtro saturado, un cepillo enredado o la batería, y se arregla en casa. Te explicamos cómo en escobas sin cable, robots y aspiradoras de trineo.
+- [La campana extractora no aspira: causas y cómo recuperar la potencia](https://repararovender.es/blog/campana-extractora-no-aspira.html): La cocina se llena de humo aunque la campana esté en marcha y haciendo ruido. Casi siempre son los filtros de grasa, los de carbón o la salida de humos, y se arregla sin técnico. Te explicamos cada caso y cuándo es el motor.
 
 ## Tecnología
 
