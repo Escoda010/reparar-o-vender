@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-27</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -19,7 +19,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/tecnologia/</loc>
-    <lastmod>2026-10-21</lastmod>
+    <lastmod>2026-10-28</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/hogar/</loc>
@@ -218,6 +218,11 @@
     <loc>https://repararovender.es/blog/impresora-no-imprime.html</loc>
     <lastmod>2026-10-21</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/impresora-no-imprime.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/ordenador-no-enciende.html</loc>
+    <lastmod>2026-10-28</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/ordenador-no-enciende.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/caldera-se-bloquea.html</loc>

@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Tue, 27 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Wed, 28 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>El ordenador no enciende: diagnóstico paso a paso según lo que hace</title>
+    <link>https://repararovender.es/blog/ordenador-no-enciende.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/ordenador-no-enciende.html</guid>
+    <pubDate>Wed, 28 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Tecnología</category>
+    <description>No hace nada, enciende las luces pero no da imagen, pita o se apaga al instante. Cada síntoma apunta a una pieza distinta: fuente, memoria, gráfica, disco o placa. Así se diagnostica, en sobremesa y en portátil, y así se salvan los datos si es grave.</description>
+    <enclosure url="https://repararovender.es/assets/img/ordenador-no-enciende.jpg" length="43076" type="image/jpeg"/>
+  </item>
   <item>
     <title>La campana extractora no aspira: causas y cómo recuperar la potencia</title>
     <link>https://repararovender.es/blog/campana-extractora-no-aspira.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>Antes de gastarte 400 € en uno nuevo, dedica una tarde a estas nueve cosas. Un móvil de cuatro años que va lento suele tener un problema de software, de almacenamiento o de batería, no de potencia.</description>
     <enclosure url="https://repararovender.es/assets/img/movil-lento-y-se-calienta.jpg" length="35620" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El microondas no calienta: por qué pasa y si vale la pena arreglarlo</title>
-    <link>https://repararovender.es/blog/microondas-no-calienta.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/microondas-no-calienta.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>El plato gira, la luz se enciende, suena el pitido al terminar, pero la comida sigue fría. Es el fallo más típico del microondas y, a diferencia de otros electrodomésticos, aquí la respuesta sobre repararlo casi siempre es la misma.</description>
-    <enclosure url="https://repararovender.es/assets/img/microondas-no-calienta.jpg" length="48353" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
