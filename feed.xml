@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Wed, 28 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Thu, 29 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Vender ropa en Vinted: cómo funciona, qué se vende y cómo hacerlo bien</title>
+    <link>https://repararovender.es/blog/vender-ropa-vinted.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/vender-ropa-vinted.html</guid>
+    <pubDate>Thu, 29 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Vender de segunda mano</category>
+    <description>Vinted es la plataforma de referencia para vender ropa de segunda mano, y vender allí no cuesta comisión. Pero la competencia es enorme y los precios, bajos. Te explicamos qué se vende, cómo fijar el precio, cómo hacer el anuncio y cómo funcionan los envíos.</description>
+    <enclosure url="https://repararovender.es/assets/img/vender-ropa-vinted.jpg" length="43995" type="image/jpeg"/>
+  </item>
   <item>
     <title>El ordenador no enciende: diagnóstico paso a paso según lo que hace</title>
     <link>https://repararovender.es/blog/ordenador-no-enciende.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Zumbidos, gorgoteos, chasquidos y crujidos. La mitad de los ruidos de un frigorífico son completamente normales y la otra mitad avisa de algo concreto. Esta es la guía para distinguirlos.</description>
     <enclosure url="https://repararovender.es/assets/img/nevera-hace-ruido.jpg" length="42965" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El móvil va lento y se calienta: cómo alargarle la vida</title>
-    <link>https://repararovender.es/blog/movil-lento-y-se-calienta.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/movil-lento-y-se-calienta.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>Antes de gastarte 400 € en uno nuevo, dedica una tarde a estas nueve cosas. Un móvil de cuatro años que va lento suele tener un problema de software, de almacenamiento o de batería, no de potencia.</description>
-    <enclosure url="https://repararovender.es/assets/img/movil-lento-y-se-calienta.jpg" length="35620" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
