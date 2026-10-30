@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 29 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 30 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>El aire acondicionado del coche no enfría: causas y precios de reparación</title>
+    <link>https://repararovender.es/blog/aire-acondicionado-coche-no-enfria.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/aire-acondicionado-coche-no-enfria.html</guid>
+    <pubDate>Fri, 30 Oct 2026 07:00:00 +0200</pubDate>
+    <category>Coches</category>
+    <description>Echa aire, pero caliente o tibio. Antes de pagar una carga de gas, conviene saber qué gas lleva tu coche (hay uno mucho más caro que otro) y si hay una fuga, porque si la hay, la carga se escapará igual. Te explicamos las causas y lo que cuesta cada una.</description>
+    <enclosure url="https://repararovender.es/assets/img/aire-acondicionado-coche-no-enfria.jpg" length="44146" type="image/jpeg"/>
+  </item>
   <item>
     <title>Vender ropa en Vinted: cómo funciona, qué se vende y cómo hacerlo bien</title>
     <link>https://repararovender.es/blog/vender-ropa-vinted.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Es el síntoma más desconcertante de un frigorífico, y tiene una explicación muy concreta: el frío se genera en el congelador y pasa a la nevera por un conducto. Si ese paso se bloquea con hielo, abajo deja de llegar.</description>
     <enclosure url="https://repararovender.es/assets/img/nevera-no-enfria-congelador-si.jpg" length="41887" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La nevera hace ruido: qué significa cada sonido</title>
-    <link>https://repararovender.es/blog/nevera-hace-ruido.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/nevera-hace-ruido.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Zumbidos, gorgoteos, chasquidos y crujidos. La mitad de los ruidos de un frigorífico son completamente normales y la otra mitad avisa de algo concreto. Esta es la guía para distinguirlos.</description>
-    <enclosure url="https://repararovender.es/assets/img/nevera-hace-ruido.jpg" length="42965" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
