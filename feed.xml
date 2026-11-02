@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Fri, 30 Oct 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Salta el diferencial o un enchufe no funciona: cómo encontrar la causa sin riesgos</title>
+    <link>https://repararovender.es/blog/enchufe-no-funciona-salta-diferencial.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/enchufe-no-funciona-salta-diferencial.html</guid>
+    <pubDate>Mon, 02 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>Se va la luz en parte de la casa, el diferencial no se queda arriba o un enchufe ha dejado de funcionar. Con el cuadro eléctrico y un poco de método puedes saber qué aparato o qué circuito falla. Lo que no debes hacer es tocar la instalación: eso es trabajo de un electricista.</description>
+    <enclosure url="https://repararovender.es/assets/img/enchufe-no-funciona-salta-diferencial.jpg" length="43616" type="image/jpeg"/>
+  </item>
   <item>
     <title>El aire acondicionado del coche no enfría: causas y precios de reparación</title>
     <link>https://repararovender.es/blog/aire-acondicionado-coche-no-enfria.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>Una pantalla rota es la reparación más cara de un móvil después de la placa, y la que peor se calcula. El precio depende sobre todo de un detalle técnico que casi nadie conoce: si el panel es OLED o LCD.</description>
     <enclosure url="https://repararovender.es/assets/img/pantalla-movil-rota-reparar-o-vender.jpg" length="41778" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La nevera no enfría pero el congelador sí: qué está pasando</title>
-    <link>https://repararovender.es/blog/nevera-no-enfria-congelador-si.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/nevera-no-enfria-congelador-si.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Es el síntoma más desconcertante de un frigorífico, y tiene una explicación muy concreta: el frío se genera en el congelador y pasa a la nevera por un conducto. Si ese paso se bloquea con hielo, abajo deja de llegar.</description>
-    <enclosure url="https://repararovender.es/assets/img/nevera-no-enfria-congelador-si.jpg" length="41887" type="image/jpeg"/>
   </item>
 </channel>
 </rss>

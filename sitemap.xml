@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-02</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-10-30</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/hogar/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-02</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/vender/</loc>
@@ -263,6 +263,11 @@
     <loc>https://repararovender.es/blog/humedad-condensacion-paredes.html</loc>
     <lastmod>2026-10-26</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/humedad-condensacion-paredes.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/enchufe-no-funciona-salta-diferencial.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/enchufe-no-funciona-salta-diferencial.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/donde-vender-cada-cosa.html</loc>
