@@ -55,6 +55,7 @@
 - [El wifi va lento: cómo saber si es el router, la línea o tus aparatos](https://repararovender.es/blog/wifi-lento-router.html): Tienes contratados 600 Mb y en el salón no carga ni un vídeo. Casi nunca es la línea: es dónde está el router, la banda a la que te conectas o un aparato que se come la conexión. Te explicamos cómo averiguarlo y qué comprar solo si hace falta.
 - [La impresora no imprime: soluciones paso a paso (aunque tenga tinta)](https://repararovender.es/blog/impresora-no-imprime.html): Mandas el documento y no pasa nada, o sale en blanco, o con rayas. La mayoría de las veces el problema está en el ordenador o en la conexión, no en la impresora. Estas son las soluciones en el orden en que conviene probarlas.
 - [El ordenador no enciende: diagnóstico paso a paso según lo que hace](https://repararovender.es/blog/ordenador-no-enciende.html): No hace nada, enciende las luces pero no da imagen, pita o se apaga al instante. Cada síntoma apunta a una pieza distinta: fuente, memoria, gráfica, disco o placa. Así se diagnostica, en sobremesa y en portátil, y así se salvan los datos si es grave.
+- [Un auricular inalámbrico no suena: cómo arreglarlo antes de comprar otros](https://repararovender.es/blog/auriculares-inalambricos-uno-no-suena.html): Te pones los auriculares y solo suena uno, o uno se desconecta cada dos por tres. En la mayoría de los casos no está roto: es la carga, los contactos de la caja, la cera en la rejilla o un emparejamiento que se ha desincronizado. Estas son las soluciones en orden.
 
 ## Hogar y bricolaje
 

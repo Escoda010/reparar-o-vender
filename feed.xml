@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Mon, 02 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 03 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Un auricular inalámbrico no suena: cómo arreglarlo antes de comprar otros</title>
+    <link>https://repararovender.es/blog/auriculares-inalambricos-uno-no-suena.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/auriculares-inalambricos-uno-no-suena.html</guid>
+    <pubDate>Tue, 03 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Tecnología</category>
+    <description>Te pones los auriculares y solo suena uno, o uno se desconecta cada dos por tres. En la mayoría de los casos no está roto: es la carga, los contactos de la caja, la cera en la rejilla o un emparejamiento que se ha desincronizado. Estas son las soluciones en orden.</description>
+    <enclosure url="https://repararovender.es/assets/img/auriculares-inalambricos-uno-no-suena.jpg" length="40948" type="image/jpeg"/>
+  </item>
   <item>
     <title>Salta el diferencial o un enchufe no funciona: cómo encontrar la causa sin riesgos</title>
     <link>https://repararovender.es/blog/enchufe-no-funciona-salta-diferencial.html</link>
@@ -267,15 +276,6 @@
     <category>Coches</category>
     <description>Vender un coche entre particulares es sencillo si sigues el orden correcto: comprobar que no tiene cargas, firmar un buen contrato, cobrar de forma segura y comunicar la venta a la DGT. Saltarte el último paso es lo que hace que te sigan llegando multas de un coche que ya no es tuyo.</description>
     <enclosure url="https://repararovender.es/assets/img/papeles-vender-coche.jpg" length="47253" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>Pantalla de móvil rota: reparar, vender o cambiar de teléfono</title>
-    <link>https://repararovender.es/blog/pantalla-movil-rota-reparar-o-vender.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/pantalla-movil-rota-reparar-o-vender.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>Una pantalla rota es la reparación más cara de un móvil después de la placa, y la que peor se calcula. El precio depende sobre todo de un detalle técnico que casi nadie conoce: si el panel es OLED o LCD.</description>
-    <enclosure url="https://repararovender.es/assets/img/pantalla-movil-rota-reparar-o-vender.jpg" length="41778" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
