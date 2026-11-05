@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Wed, 04 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Thu, 05 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Siniestro total del coche: qué significa, cuánto te pagan y qué opciones tienes</title>
+    <link>https://repararovender.es/blog/siniestro-total-que-hacer.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/siniestro-total-que-hacer.html</guid>
+    <pubDate>Thu, 05 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Coches</category>
+    <description>El perito dice que tu coche es siniestro total: arreglarlo cuesta más de lo que vale. Eso no siempre significa que no tenga arreglo, y lo que te paguen depende de tu póliza y de si fue culpa tuya. Te explicamos los conceptos, tus opciones y cómo negociar.</description>
+    <enclosure url="https://repararovender.es/assets/img/siniestro-total-que-hacer.jpg" length="45434" type="image/jpeg"/>
+  </item>
   <item>
     <title>Vender muebles de segunda mano: qué se vende, a qué precio y cómo moverlos</title>
     <link>https://repararovender.es/blog/vender-muebles-segunda-mano.html</link>
@@ -267,15 +276,6 @@
     <category>Vender de segunda mano</category>
     <description>El precio de segunda mano no es lo que pagaste menos un porcentaje a ojo. Es lo que se paga hoy por productos iguales al tuyo, ajustado por estado y por urgencia. Este es el método en cuatro pasos y la tabla de depreciación por tipo de producto.</description>
     <enclosure url="https://repararovender.es/assets/img/poner-precio-segunda-mano.jpg" length="52946" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La persiana no sube: cómo cambiar la cinta paso a paso</title>
-    <link>https://repararovender.es/blog/persiana-no-sube.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/persiana-no-sube.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Hogar y bricolaje</category>
-    <description>La cinta se ha roto y la persiana se ha quedado a medio bajar. Es uno de los arreglos caseros más agradecidos: unos 6 € de material, una o dos horas la primera vez, y el profesional cobra entre 70 y 120 €.</description>
-    <enclosure url="https://repararovender.es/assets/img/persiana-no-sube.jpg" length="41042" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
