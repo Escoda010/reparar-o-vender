@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 05 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>La puerta no cierra o roza: cómo ajustarla sin cambiarla</title>
+    <link>https://repararovender.es/blog/puerta-no-cierra-roza.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/puerta-no-cierra-roza.html</guid>
+    <pubDate>Fri, 06 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>Roza con el suelo, el pestillo no encaja o se abre sola. En la gran mayoría de los casos la puerta no está mal: se han aflojado las bisagras o se ha movido un poco. Se arregla con un destornillador y, como mucho, una lija.</description>
+    <enclosure url="https://repararovender.es/assets/img/puerta-no-cierra-roza.jpg" length="41705" type="image/jpeg"/>
+  </item>
   <item>
     <title>Siniestro total del coche: qué significa, cuánto te pagan y qué opciones tienes</title>
     <link>https://repararovender.es/blog/siniestro-total-que-hacer.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>Tarda tres minutos en arrancar y el ventilador ruge con dos pestañas abiertas. Siete de estas ocho soluciones son gratis, y la octava cuesta 40 € y es la que de verdad transforma un portátil viejo.</description>
     <enclosure url="https://repararovender.es/assets/img/portatil-lento-soluciones.jpg" length="34062" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>Cómo poner precio a algo de segunda mano sin regalarlo</title>
-    <link>https://repararovender.es/blog/poner-precio-segunda-mano.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/poner-precio-segunda-mano.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Vender de segunda mano</category>
-    <description>El precio de segunda mano no es lo que pagaste menos un porcentaje a ojo. Es lo que se paga hoy por productos iguales al tuyo, ajustado por estado y por urgencia. Este es el método en cuatro pasos y la tabla de depreciación por tipo de producto.</description>
-    <enclosure url="https://repararovender.es/assets/img/poner-precio-segunda-mano.jpg" length="52946" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
