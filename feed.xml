@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Fri, 06 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Mon, 09 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Comprar de segunda mano sin riesgos: qué revisar antes de pagar</title>
+    <link>https://repararovender.es/blog/comprar-segunda-mano-sin-riesgos.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/comprar-segunda-mano-sin-riesgos.html</guid>
+    <pubDate>Mon, 09 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Vender de segunda mano</category>
+    <description>Comprar de segunda mano ahorra mucho dinero, pero solo si sabes qué mirar. Esta es la lista de comprobaciones antes de pagar, producto por producto: móviles, portátiles, consolas, electrodomésticos, bicis y coches. Y cómo pagar para estar protegido.</description>
+    <enclosure url="https://repararovender.es/assets/img/comprar-segunda-mano-sin-riesgos.jpg" length="56734" type="image/jpeg"/>
+  </item>
   <item>
     <title>La puerta no cierra o roza: cómo ajustarla sin cambiarla</title>
     <link>https://repararovender.es/blog/puerta-no-cierra-roza.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>Se apaga de golpe, sin aviso ni pantalla azul, normalmente cuando lleva un rato encendido o cuando le exiges algo. En portátiles de más de tres años la causa número uno es el polvo, y se arregla con un destornillador.</description>
     <enclosure url="https://repararovender.es/assets/img/portatil-se-apaga-solo.jpg" length="41855" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>Portátil lento: 8 arreglos que funcionan sin gastar dinero</title>
-    <link>https://repararovender.es/blog/portatil-lento-soluciones.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/portatil-lento-soluciones.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>Tarda tres minutos en arrancar y el ventilador ruge con dos pestañas abiertas. Siete de estas ocho soluciones son gratis, y la octava cuesta 40 € y es la que de verdad transforma un portátil viejo.</description>
-    <enclosure url="https://repararovender.es/assets/img/portatil-lento-soluciones.jpg" length="34062" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
