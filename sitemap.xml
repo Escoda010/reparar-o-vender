@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://repararovender.es/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/portada.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/</loc>
-    <lastmod>2026-11-09</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/coches/</loc>
@@ -23,7 +23,7 @@
   </url>
   <url>
     <loc>https://repararovender.es/blog/hogar/</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-10</lastmod>
   </url>
   <url>
     <loc>https://repararovender.es/blog/vender/</loc>
@@ -283,6 +283,11 @@
     <loc>https://repararovender.es/blog/puerta-no-cierra-roza.html</loc>
     <lastmod>2026-11-06</lastmod>
     <image:image><image:loc>https://repararovender.es/assets/img/puerta-no-cierra-roza.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://repararovender.es/blog/desatascar-fregadero.html</loc>
+    <lastmod>2026-11-10</lastmod>
+    <image:image><image:loc>https://repararovender.es/assets/img/desatascar-fregadero.jpg</image:loc></image:image>
   </url>
   <url>
     <loc>https://repararovender.es/blog/donde-vender-cada-cosa.html</loc>

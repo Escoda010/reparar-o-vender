@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Mon, 09 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Tue, 10 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Cómo desatascar un fregadero o un lavabo sin llamar al fontanero</title>
+    <link>https://repararovender.es/blog/desatascar-fregadero.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/desatascar-fregadero.html</guid>
+    <pubDate>Tue, 10 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>El agua no baja o baja muy despacio. En la mayoría de los casos el atasco está a menos de medio metro del desagüe, en el sifón, y se resuelve con un desatascador de ventosa o desmontando el sifón. Así se hace, de menos a más, y sin estropear las tuberías.</description>
+    <enclosure url="https://repararovender.es/assets/img/desatascar-fregadero.jpg" length="47099" type="image/jpeg"/>
+  </item>
   <item>
     <title>Comprar de segunda mano sin riesgos: qué revisar antes de pagar</title>
     <link>https://repararovender.es/blog/comprar-segunda-mano-sin-riesgos.html</link>
@@ -267,15 +276,6 @@
     <category>Vender de segunda mano</category>
     <description>La tienda está obligada a llevarse el viejo gratis cuando compras uno nuevo, el punto limpio lo recoge sin coste y, si funciona o tiene piezas útiles, todavía puedes venderlo. Lo que no puedes es dejarlo junto al contenedor.</description>
     <enclosure url="https://repararovender.es/assets/img/que-hacer-electrodomestico-viejo.jpg" length="54995" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>El portátil se apaga solo: causas y cómo solucionarlo</title>
-    <link>https://repararovender.es/blog/portatil-se-apaga-solo.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/portatil-se-apaga-solo.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>Se apaga de golpe, sin aviso ni pantalla azul, normalmente cuando lleva un rato encendido o cuando le exiges algo. En portátiles de más de tres años la causa número uno es el polvo, y se arregla con un destornillador.</description>
-    <enclosure url="https://repararovender.es/assets/img/portatil-se-apaga-solo.jpg" length="41855" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
