@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Tue, 10 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Wed, 11 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Vender una consola y videojuegos usados: cuánto valen y dónde se paga más</title>
+    <link>https://repararovender.es/blog/vender-consola-videojuegos.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/vender-consola-videojuegos.html</guid>
+    <pubDate>Wed, 11 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Vender de segunda mano</category>
+    <description>Una consola usada conserva mucho mejor su valor que casi cualquier otro aparato, sobre todo antes de que salga la siguiente generación. Te explicamos cuánto vale la tuya, cómo prepararla, dónde se paga más y qué juegos antiguos valen más de lo que crees.</description>
+    <enclosure url="https://repararovender.es/assets/img/vender-consola-videojuegos.jpg" length="49702" type="image/jpeg"/>
+  </item>
   <item>
     <title>Cómo desatascar un fregadero o un lavabo sin llamar al fontanero</title>
     <link>https://repararovender.es/blog/desatascar-fregadero.html</link>
@@ -267,15 +276,6 @@
     <category>Electrodomésticos</category>
     <description>Un ciclo que antes duraba hora y media ahora tarda tres horas y la ropa sale húmeda. En las secadoras, nueve de cada diez veces el problema es el mismo: el aire no circula porque algo está tapado de pelusa.</description>
     <enclosure url="https://repararovender.es/assets/img/secadora-no-seca.jpg" length="49168" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>Qué hacer con un electrodoméstico que ya no sirve (y cuánto puedes sacar)</title>
-    <link>https://repararovender.es/blog/que-hacer-electrodomestico-viejo.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/que-hacer-electrodomestico-viejo.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Vender de segunda mano</category>
-    <description>La tienda está obligada a llevarse el viejo gratis cuando compras uno nuevo, el punto limpio lo recoge sin coste y, si funciona o tiene piezas útiles, todavía puedes venderlo. Lo que no puedes es dejarlo junto al contenedor.</description>
-    <enclosure url="https://repararovender.es/assets/img/que-hacer-electrodomestico-viejo.jpg" length="54995" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
