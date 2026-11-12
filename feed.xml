@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Wed, 11 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Thu, 12 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Muebles hinchados, rotos o descolgados: cuándo se arreglan y cuándo no</title>
+    <link>https://repararovender.es/blog/muebles-aglomerado-hinchados.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/muebles-aglomerado-hinchados.html</guid>
+    <pubDate>Thu, 12 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>El bajo del fregadero hinchado por el agua, una puerta de armario descolgada, un cajón que no corre, un tornillo que ya no agarra. Algunos de estos daños tienen un arreglo de 5 € y otros no tienen arreglo de verdad. Te explicamos cuáles son cuáles.</description>
+    <enclosure url="https://repararovender.es/assets/img/muebles-aglomerado-hinchados.jpg" length="44402" type="image/jpeg"/>
+  </item>
   <item>
     <title>Vender una consola y videojuegos usados: cuánto valen y dónde se paga más</title>
     <link>https://repararovender.es/blog/vender-consola-videojuegos.html</link>
@@ -267,15 +276,6 @@
     <category>Tecnología</category>
     <description>Oyes el programa perfectamente pero la pantalla está negra. Hay una prueba de diez segundos con una linterna que distingue entre una reparación de 80 € y una de 400 €.</description>
     <enclosure url="https://repararovender.es/assets/img/tele-sin-imagen-con-sonido.jpg" length="38101" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La secadora no seca o tarda demasiado: causas y soluciones</title>
-    <link>https://repararovender.es/blog/secadora-no-seca.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/secadora-no-seca.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Electrodomésticos</category>
-    <description>Un ciclo que antes duraba hora y media ahora tarda tres horas y la ropa sale húmeda. En las secadoras, nueve de cada diez veces el problema es el mismo: el aire no circula porque algo está tapado de pelusa.</description>
-    <enclosure url="https://repararovender.es/assets/img/secadora-no-seca.jpg" length="49168" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
