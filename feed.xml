@@ -6,7 +6,16 @@
   <atom:link href="https://repararovender.es/feed.xml" rel="self" type="application/rss+xml"/>
   <description>Averías del coche y de la casa: síntomas, precios en España y cuándo compensa reparar, cambiar o vender.</description>
   <language>es-es</language>
-  <lastBuildDate>Thu, 12 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <lastBuildDate>Fri, 13 Nov 2026 07:00:00 +0200</lastBuildDate>
+  <item>
+    <title>Poner a punto una bici vieja: qué revisar, qué cambiar y cuánto cuesta</title>
+    <link>https://repararovender.es/blog/poner-a-punto-bici-vieja.html</link>
+    <guid isPermaLink="true">https://repararovender.es/blog/poner-a-punto-bici-vieja.html</guid>
+    <pubDate>Fri, 13 Nov 2026 07:00:00 +0200</pubDate>
+    <category>Hogar y bricolaje</category>
+    <description>Esa bici que lleva años en el trastero casi siempre vuelve a rodar con unos neumáticos, cables y pastillas nuevas, una limpieza y algo de grasa. Te explicamos qué revisar, qué puedes hacer tú, qué cuesta en un taller y cuándo no compensa.</description>
+    <enclosure url="https://repararovender.es/assets/img/poner-a-punto-bici-vieja.jpg" length="47837" type="image/jpeg"/>
+  </item>
   <item>
     <title>Muebles hinchados, rotos o descolgados: cuándo se arreglan y cuándo no</title>
     <link>https://repararovender.es/blog/muebles-aglomerado-hinchados.html</link>
@@ -267,15 +276,6 @@
     <category>Coches</category>
     <description>Particular, compraventa, comprador online o desguace: cada opción paga distinto, tarda distinto y te protege distinto. Esta es la guía para vender un coche con el motor roto, el embrague quemado o la ITV suspendida sin regalarlo y sin problemas legales después.</description>
     <enclosure url="https://repararovender.es/assets/img/vender-coche-averiado.jpg" length="50005" type="image/jpeg"/>
-  </item>
-  <item>
-    <title>La tele no da imagen pero sí sonido: qué falla y cuánto cuesta</title>
-    <link>https://repararovender.es/blog/tele-sin-imagen-con-sonido.html</link>
-    <guid isPermaLink="true">https://repararovender.es/blog/tele-sin-imagen-con-sonido.html</guid>
-    <pubDate>Wed, 07 Oct 2026 07:00:00 +0200</pubDate>
-    <category>Tecnología</category>
-    <description>Oyes el programa perfectamente pero la pantalla está negra. Hay una prueba de diez segundos con una linterna que distingue entre una reparación de 80 € y una de 400 €.</description>
-    <enclosure url="https://repararovender.es/assets/img/tele-sin-imagen-con-sonido.jpg" length="38101" type="image/jpeg"/>
   </item>
 </channel>
 </rss>
