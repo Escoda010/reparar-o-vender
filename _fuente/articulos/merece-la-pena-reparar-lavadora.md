@@ -1,11 +1,11 @@
 ---
 titulo: ¿Merece la pena reparar una lavadora? Precios de cada avería y el punto de corte
-titulo_seo: ¿Merece la pena reparar una lavadora? Precios y la regla del 50%
+titulo_seo: ¿Merece la pena reparar la lavadora? Precios 2026 y la regla
 categoria: electrodomesticos
 resumen: Un técnico te pide 220 € y una lavadora nueva cuesta 400 €. La decisión no depende solo del presupuesto, sino de la edad del aparato y de qué pieza se ha roto. Aquí está la tabla completa.
-descripcion: Cuánto cuesta reparar cada avería de lavadora en España y cuándo compensa arreglarla o comprar una nueva, según la edad del aparato y el tipo de pieza.
+descripcion: Cuánto cuesta reparar cada avería de lavadora en España (2026) y cuándo compensa arreglarla o comprar una nueva, según la edad del aparato y la pieza que falla.
 fecha: 2026-10-07
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: balanza
 destacado: si
 hero: Reparar la lavadora o cambiarla

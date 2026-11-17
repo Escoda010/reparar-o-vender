@@ -1,11 +1,11 @@
 ---
 titulo: Correa de distribución rota: ¿reparar el coche o venderlo?
-titulo_seo: Correa de distribución rota: precio y si reparar o vender
+titulo_seo: Correa de distribución rota: precio 2026 y reparar o vender
 categoria: coches
 resumen: Si la correa de distribución se rompe en marcha, la factura puede ir de 300 € a 6.000 €. Todo depende de una pregunta: ¿se ha llevado el motor por delante? Te explicamos cómo saberlo, qué cuesta cada caso y cuándo vender.
-descripcion: Correa de distribución rota: por qué es tan grave, cuánto cuesta repararla según el daño (300-6.000 €) y cuándo compensa vender el coche.
+descripcion: Cuánto cuesta cambiar una correa de distribución rota en 2026 (300-6.000 € según el daño al motor), cómo saber si ha roto el motor y cuándo compensa vender el coche.
 fecha: 2026-07-02
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: correa
 hero: Correa de distribución rota
 alt_imagen: Ilustración de una correa de distribución con poleas

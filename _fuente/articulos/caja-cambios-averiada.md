@@ -1,11 +1,11 @@
 ---
 titulo: Caja de cambios averiada: síntomas, precios y si reparar o vender el coche
-titulo_seo: Caja de cambios averiada: precios y si compensa repararla
+titulo_seo: Caja de cambios averiada: precio 2026 y si reparar o vender
 categoria: coches
 resumen: Rasca al meter las marchas, hace ruido en punto muerto o la automática da tirones. Una caja de cambios puede costar 300 € o 4.000 €, según sea manual o automática y según qué pieza haya fallado. Te explicamos cómo distinguirlo y cuándo compensa.
-descripcion: Síntomas de una caja de cambios averiada, manual o automática, cuánto cuesta repararla o poner una usada y cuándo compensa vender el coche.
+descripcion: Cuánto cuesta reparar una caja de cambios en 2026: manual (300-1.200 €) o automática (1.500-4.000 €), con alternativa usada, y cuándo compensa vender el coche.
 fecha: 2026-10-09
-actualizado: 2026-10-09
+actualizado: 2026-11-17
 icono: engranaje
 hero: Caja de cambios averiada
 alt_imagen: Ilustración de un engranaje

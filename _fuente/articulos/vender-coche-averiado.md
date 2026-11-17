@@ -1,11 +1,11 @@
 ---
 titulo: Dónde vender un coche averiado y cuánto te van a pagar
-titulo_seo: Vender un coche averiado o con el motor roto: dónde y cuánto
+titulo_seo: Vender un coche averiado o con motor roto: cuánto pagan
 categoria: coches
 resumen: Particular, compraventa, comprador online o desguace: cada opción paga distinto, tarda distinto y te protege distinto. Esta es la guía para vender un coche con el motor roto, el embrague quemado o la ITV suspendida sin regalarlo y sin problemas legales después.
-descripcion: Cómo vender un coche averiado o con el motor roto: particular, compraventa, comprador online o desguace. Cuánto pagan y cómo declarar la avería.
+descripcion: Guía 2026 para vender un coche averiado o con el motor roto en España: cuánto pagan particular, compraventa, comprador online y desguace, y cómo declarar la avería sin problemas después.
 fecha: 2026-10-07
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: coche
 destacado: si
 hero: Dónde vender un coche averiado
@@ -96,6 +96,16 @@ La solución es sencilla: **escríbelo en el contrato**. Una cláusula como esta
 > El vehículo se vende en el estado en que se encuentra, que el comprador declara conocer tras haberlo examinado, con la siguiente avería conocida: [describe la avería]. El comprador acepta el vehículo con dicha avería y renuncia a reclamar por ella.
 
 Adjunta, si lo tienes, el presupuesto o el diagnóstico del taller. Así el comprador sabe exactamente qué compra, y tú tienes prueba de que lo sabía.
+
+## Vender un coche con el motor roto
+
+Un coche con el motor gripado, fundido o con un golpe de biela entra en un mercado aparte. Los particulares que lo compran son casi siempre mecánicos o aficionados que quieren aprovechar la pieza, y las compraventas normales rara vez lo quieren. Tus tres salidas reales:
+
+- **Comprador online de coches averiados.** Suelen hacer oferta en menos de 24 horas, mandan grúa y pagan por transferencia al recoger. Pagas en precio: lo normal es entre un 15 y un 40 % del valor del coche funcionando.
+- **Desguace (CAT).** Paga por peso y por valor de las piezas no dañadas (caja de cambios, inyección, puertas, interior). Entre 0 y 300 € en coches normales; más si el modelo tiene demanda de recambios. Te da el certificado de destrucción, que es lo que te quita el coche de tu nombre en la DGT.
+- **Particular mecánico o aficionado.** En foros y en portales de segunda mano hay quien compra coches con motor roto para repararlos ellos mismos, sobre todo si el modelo es popular y la carrocería está intacta. Paga más que las dos opciones anteriores, pero puede tardar semanas y suele pedir regatear in situ.
+
+Lo que *no* funciona: ponerlo en un portal de segunda mano al precio de un coche funcionando. Va a estar meses sin llamadas. Pon el precio asumiendo que el comprador paga la reparación más una prima de riesgo del 15-30 %, y escribe "motor averiado, se vende tal cual" en el título. Para saber la cuenta exacta, [cómo tasar un coche averiado](/blog/tasacion-coche-averiado.html).
 
 ## Lo que necesitas antes de vender
 

@@ -1,11 +1,11 @@
 ---
 titulo: Cómo poner precio a algo de segunda mano sin regalarlo
-titulo_seo: Cómo poner precio a algo de segunda mano sin regalarlo
+titulo_seo: Cómo poner precio en Wallapop sin regalarlo (guía 2026)
 categoria: vender
 resumen: El precio de segunda mano no es lo que pagaste menos un porcentaje a ojo. Es lo que se paga hoy por productos iguales al tuyo, ajustado por estado y por urgencia. Este es el método en cuatro pasos y la tabla de depreciación por tipo de producto.
-descripcion: Cómo calcular el precio de algo de segunda mano: método en cuatro pasos, depreciación por producto, ajuste por estado y cuándo bajar el precio.
+descripcion: Cómo poner precio a algo de segunda mano en Wallapop, Vinted o Milanuncios sin regalarlo: método en cuatro pasos, depreciación por producto, ajuste por estado y cuándo bajarlo.
 fecha: 2026-10-07
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: etiqueta
 destacado: si
 hero: Cómo poner precio a lo que vendes

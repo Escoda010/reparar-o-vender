@@ -1,12 +1,12 @@
 ---
 titulo: Tasación de coche averiado: cuánto vale y cómo tasarlo sin repararlo
-titulo_seo: Tasar un coche averiado: cuánto vale en 2026 y dónde tasarlo
+titulo_seo: Tasar un coche averiado o sin ITV: cuánto vale (2026)
 h1: Tasación de coche averiado: cuánto vale tu coche con la avería y cómo tasarlo
 categoria: coches
-resumen: Un coche averiado no vale "su precio menos la reparación". Vale lo que alguien está dispuesto a pagar asumiendo el riesgo, y eso depende del tipo de avería, de quién compra y de cómo lo presentes. Aquí tienes el método para calcularlo y dónde tasarlo.
-descripcion: Cómo tasar un coche averiado: cuánto baja el valor según la avería, el método para calcular un precio realista y a quién venderlo sin repararlo.
+resumen: Un coche averiado no vale "su precio menos la reparación". Vale lo que alguien está dispuesto a pagar asumiendo el riesgo, y eso depende del tipo de avería, de quién compra y de cómo lo presentes. Aquí tienes el método para calcularlo y dónde tasarlo, aunque esté sin ITV.
+descripcion: Cuánto vale un coche averiado en 2026: fórmula, descuento por tipo de avería, cómo tasarlo gratis y qué pagan particular, compraventa y desguace. También si está sin ITV.
 fecha: 2026-08-02
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: euro
 destacado: si
 hero: Tasación de coche averiado
@@ -103,6 +103,16 @@ Si quieres una estimación rápida, nuestra [calculadora de reparar o vender](/#
 
 Tienes el proceso completo, con precios y trucos para negociar, en [dónde vender un coche averiado](/blog/vender-coche-averiado.html), y los trámites en [papeles para vender un coche](/blog/papeles-vender-coche.html).
 
+## Tasar un coche sin ITV
+
+Si la ITV está caducada o el coche no la pasa, el precio baja por dos motivos: el comprador tiene que arrastrarlo con grúa (no puede circular legalmente) y, además, no sabe si pasará la próxima. Como regla orientativa:
+
+- **ITV caducada menos de 6 meses:** resta entre 150 y 300 € sobre el precio con ITV al día. Lo normal es que el comprador acepte repasarla él.
+- **ITV negativa grave (frenos, dirección, emisiones):** resta el coste estimado de la reparación más un 20-30 % de margen de riesgo. Si no sabes lo que falla, pide el informe de la última inspección en la web de tu Comunidad Autónoma; es gratuito.
+- **Coche sin ITV porque no arranca o está averiado:** se vende por el valor de piezas en manos de un comprador profesional o de un desguace. Un particular rara vez lo compra si no puede ni verlo rodar.
+
+Para venderlo puedes usar las compraventas y compradores online: aceptan coches sin ITV y envían grúa. El desguace lo recoge gratis en la mayoría de casos y siempre te entrega el certificado de destrucción, imprescindible para dar el coche de baja en la DGT.
+
 ## ¿Reparar antes de vender?
 
 Solo compensa si la reparación **sube el precio de venta más de lo que cuesta**. Eso pasa con averías baratas y muy visibles: una batería, unos neumáticos, una luz. Un coche que arranca y no tiene testigos encendidos se vende mucho mejor que uno que no.
@@ -126,6 +136,10 @@ Depende del coste de la reparación frente a lo que sube el precio. Las reparaci
 ### ¿Hay que declarar la avería al vender el coche?
 
 Sí. Ocultar una avería que conoces puede dar lugar a una reclamación por vicios ocultos. Lo correcto, y lo que te protege, es indicarla por escrito en el contrato de compraventa: que el coche se vende con esa avería conocida y en el estado en que se encuentra.
+
+### ¿Se puede tasar un coche sin ITV?
+
+Sí. Las compraventas y los compradores online aceptan coches sin ITV e incluso recogen el vehículo si no arranca. El precio baja según el motivo: ITV caducada reciente apenas resta (150-300 €), una ITV negativa grave resta el coste de la reparación más un 20-30 %, y un coche que no arranca se tasa por valor de piezas. Un particular rara vez compra sin ver el coche en marcha.
 
 ### ¿Cuánto paga un desguace por un coche averiado?
 

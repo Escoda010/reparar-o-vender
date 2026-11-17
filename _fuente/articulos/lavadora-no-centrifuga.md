@@ -3,9 +3,9 @@ titulo: La lavadora no centrifuga: 7 causas y las que puedes arreglar tú
 titulo_seo: La lavadora no centrifuga: 7 causas y cómo arreglarlo (2026)
 categoria: electrodomesticos
 resumen: La ropa sale empapada y el tambor no coge velocidad. En 8 de cada 10 casos es el filtro, la carga mal repartida o la bomba de desagüe, y los tres se arreglan en casa sin herramientas especiales.
-descripcion: Por qué la lavadora no centrifuga y deja la ropa empapada: las 7 causas, cuáles arreglas tú en 20 minutos y cuánto cuesta cada reparación.
+descripcion: La lavadora no centrifuga y deja la ropa empapada: las 7 causas, cómo distinguirlas, cuáles arreglas tú en 20 minutos sin herramientas y cuánto cuesta cada reparación.
 fecha: 2026-10-07
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: lavadora
 destacado: si
 hero: La lavadora no centrifuga

@@ -1,11 +1,11 @@
 ---
 titulo: Motor gripado: ¿reparar o vender el coche?
-titulo_seo: Motor gripado: cuánto cuesta repararlo o si vender el coche
+titulo_seo: Motor gripado: precio 2026 y si reparar o vender el coche
 categoria: coches
 resumen: Un motor gripado es la avería más cara que puede tener un coche: de 1.200 a más de 6.000 €. En la mayoría de los coches de más de diez años, la cuenta sale clara. Te explicamos cuándo merece la pena repararlo y cuánto vale el coche si lo vendes así.
-descripcion: Motor gripado: cuánto cuesta repararlo o cambiarlo (1.200-6.000 €), cómo saber si está gripado y cuándo es mejor vender el coche.
+descripcion: Cuánto cuesta reparar un motor gripado en 2026 (1.200-6.000 €), cómo saber si está gripado, qué pagan por un coche con el motor fundido y cuándo compensa vender.
 fecha: 2026-07-02
-actualizado: 2026-10-07
+actualizado: 2026-11-17
 icono: motor
 hero: Motor gripado: ¿reparar o vender?
 alt_imagen: Ilustración de un motor de coche con la etiqueta de coches

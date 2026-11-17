@@ -1,11 +1,11 @@
 ---
 titulo: La cafetera no saca café o sale muy poco: causas y cómo arreglarlo
-titulo_seo: La cafetera no saca café o sale poco: cómo arreglarlo
+titulo_seo: La cafetera hace ruido pero no sale café: cómo arreglarlo
 categoria: electrodomesticos
 resumen: Hace ruido, pero el café sale a gotas o no sale. En nueve de cada diez cafeteras el culpable es la cal o un conducto obstruido, y se arregla con un descalcificador de 10 € y media hora. Te explicamos cómo hacerlo en superautomáticas, de cápsulas y de brazo.
-descripcion: Por qué la cafetera no saca café o sale poco: cal, aire en el circuito, grupo sucio o bomba. Soluciones para superautomáticas, cápsulas y brazo.
+descripcion: La cafetera hace ruido pero no saca café o sale poco: cal, aire en el circuito, grupo sucio o bomba. Soluciones para superautomáticas, cápsulas y de brazo.
 fecha: 2026-10-13
-actualizado: 2026-10-13
+actualizado: 2026-11-17
 icono: cafetera
 hero: La cafetera no saca café
 alt_imagen: Ilustración de una taza de café

@@ -1,11 +1,11 @@
 ---
 titulo: Turbo roto: síntomas, precio de la reparación y si compensa
-titulo_seo: Turbo roto: síntomas, precio y si compensa repararlo
+titulo_seo: Turbo roto: síntomas, precio 2026 y si compensa repararlo
 categoria: coches
 resumen: El coche ha perdido fuerza de golpe, silba, echa humo o entra en modo de emergencia. No siempre es el turbo: a veces es un manguito de 40 €. Te explicamos cómo distinguirlo, cuánto cuesta cada reparación y cuándo deja de compensar.
-descripcion: Turbo averiado: síntomas, cómo descartar manguitos y geometría variable, cuánto cuesta repararlo y cuándo compensa vender el coche.
+descripcion: Síntomas de un turbo roto, cuánto cuesta cambiarlo en 2026 (manguitos 40 €, geometría 300-600 €, turbo nuevo 1.200-2.500 €) y cuándo compensa vender el coche.
 fecha: 2026-10-16
-actualizado: 2026-10-16
+actualizado: 2026-11-17
 icono: turbo
 hero: Turbo roto
 alt_imagen: Ilustración de la turbina de un turbo
